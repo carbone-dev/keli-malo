@@ -1,7 +1,15 @@
+body
+{
+	margin:0;
+}
+
 #container
 	{
-		margin: 2% 5%;
+		margin: 2% 7%;
 	}
+
+
+
 	@media only screen and (min-width: 1367px) and (max-width: 1600px)
 {
 	#container
@@ -26,17 +34,6 @@
 
 /*-------UNI------*/
 
-.row
-{
-	display:flex;
-	align-items: center;
-}
-.center
-{
-	justify-content: center;
-	text-align: center;
-	align-items: center;
-}
 .box-shadow
 {
 	padding: 20px 20px 15px 20px;
@@ -105,6 +102,7 @@
 	{
 		padding-left:15px;
 	}
+
 	.boutton-1
 	{
 		color:white;
@@ -151,109 +149,35 @@
 }
 
 /*-------header------*/
-	#header
-	{
-		display: flex;
-		align-items: center;
-
-	}
-	.logo
-	{
-		width: 20%;
-	}
-	.logo img
-	{
-		width:70%;
-	}
-	.menu
-	{
-		align-items: center;
-		width: 80%;
-		text-align: right;
-	}
 	.menu a
 	{
 		margin:0 20px;
 	}
-
-/*-------contenu------*/
-
-#contenu
-{
-
-}
-
 /*-------le heros------*/
-
-
 	.le-heros
 	{
-		display: flex;
-		align-items: center;
 		margin-top: 5%;
 		background-image: url(../img/bg-le-heros.png);
 		background-size: 100%;
 		background-repeat: no-repeat;
-		padding-bottom: 5%;
-
+		padding-bottom: 7%;
 	}
-	.le-heros-left
+	.img-le-heros
 	{
-		width: 55%;
-	}
-	.le-heros-right
-	{
-		width: 45%;
-		text-align: right;
-	}
-	.le-heros-right img
-	{
-		width: 67%;
+		display:none;
 	}
 	
-
 /*-------malo-c-est-quoi------*/
 	
 	.malo-c-est-quoi
 	{
-		text-align: center;
-		justify-content: center;
-		margin: 10% 5% 5% 5%;
+		margin-top: 10%;
 
 	}
 	.contenu-malo-c-est-quoi
 	{
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin-top: 5%;
+		margin:10% 3%;
 	}
-	.img-left-malo
-	{
-		width: 40%;
-	}
-	.contenu-right
-	{
-		text-align: left;
-		width: 60%;
-	}
-	.contenu-right-text
-	{
-		padding: 20px 20px 15px 20px;
-		box-shadow: 0px 0px 30px rgb(26, 90, 157,0.1);
-		margin: 20px 0;
-		border-radius: 15px;
-		width: 80%;
-	}
-	.contenu-right-text-demi
-	{
-		width: 50%;
-	}
-	.contenu-right-text-4
-	{
-		margin-bottom: 40px;
-	}
-
 	/*-------malo-VIDEO------*/
 
 	.malo-video
@@ -261,15 +185,8 @@
 		background-image: url(../img/bg-malo-video.png);
 		background-size:100%;
 		background-repeat: no-repeat;
-		display: flex;
-		align-items: center;
-		justify-content: center;
 		margin-top: 10%;
 		padding-bottom: 10%;
-	}
-	.titre-video-1
-	{
-		width: 35%;
 	}
 	#play-vid
 	{
@@ -279,7 +196,6 @@
 	}
 	.video-1
 	{
-		width: 65%;
 		background-image: url(../img/bg-video-1.png);
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -684,4 +600,249 @@
 	color: white;
 	margin: 30px;
 
+}
+
+
+
+
+
+					/*-------G R I D------*/
+
+.row
+{
+	display:flex;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
+.col-10
+{
+	width: 100%;
+}
+.col-9
+{
+	width: 90%;
+}
+.col-8
+{
+	width: 80%;
+}
+.col-7
+{
+	width: 70%;
+}
+.col-65
+{
+	width: 65%;
+}
+.col-6
+{
+	width: 60%;
+}
+.col-55
+{
+	width: 55%;
+}
+.col-5
+{
+	width: 50%;
+}
+.col-45
+{
+	width: 45%;
+}
+.col-4
+{
+	width: 40%;
+}
+.col-35
+{
+	width: 35%;
+}
+.col-3
+{
+	width: 30%;
+}
+.col-2
+{
+	width: 20%;
+}
+.col-1
+{
+	width: 10%;
+}
+
+
+.center
+{
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.left
+{
+	text-align: left;
+	justify-content: center;
+	align-items: center;
+}
+.right
+{
+	text-align: right;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------MEDIA ------*/
+
+
+
+
+
+	@media only screen and (min-width: 107px) and (max-width: 480px)
+{
+	.col-10, .col-9, .col-8, .col-7, .col-6, .col-65, .col-5, .col-55, .col-4, .col-45, .col-35, .col-3, .col-2, .col-1
+	{
+		width: 100% !important;
+		margin: 5% 0;
+		text-align: center !important;
+		align-items: center !important;
+		justify-content: center !important;
+	}
+	.col-reverse
+	{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.box-shadow
+	{
+		padding:5px;
+		box-shadow: 0px 0px 20px rgb(26, 90, 157,0.1);
+		margin: 20px 0;
+		border-radius: 5px;
+
+	}
+	#container
+	{
+		margin: 2% 10%;
+		text-align: center;
+	}
+	.img-boutton img
+	{
+		width: 40% !important;
+	}
+
+	h1, h2, h3
+	{
+		font-size: 28px !important;
+		line-height: 35px !important;
+		margin-bottom: 1%;
+	}
+	h5
+	{
+		line-height: 19px;
+		font-size: 16px;
+	}
+	h6
+	{
+		line-height: 20px;
+		font-size: 16px;
+	}
+	a, p, span
+	{
+		font-size:15px !important;
+		line-height: 23px !important;
+		margin-bottom: 1%;
+	}
+
+	li
+	{
+		font-family: verdana;
+		font-size:14px;
+		color:black;
+		line-height: 23px;
+	}
+	ul
+	{
+		padding-left:15px;
+	}
+
+/*-------LE HEROS------*/
+
+
+	.le-heros-right
+	{
+		display: none;
+	}
+	.img-le-heros
+	{
+		display:initial !important;
+	}
+	.le-heros
+	{
+		background-image: inherit;
+	}
+	.le-heros img
+	{
+		width: 60%;
+		margin-top: 5%;
+	}
+
+	/*-------malo-VIDEO------*/
+
+	.malo-video
+	{
+		background-image:none;
+		padding: 0;
+	}
+	.titre-video-1
+	{
+		background-image: url(../img/bg-malo-phone.png);
+		background-size:100%;
+		background-repeat: no-repeat;
+		padding-bottom: 15%;
+	}
+	.titre-video-1 h3
+	{
+		text-align: left;
+	}
+	#play-vid
+	{
+		position: relative;
+		right:-150px;
+		top:-140px;
+		z-index: 0;
+	}
+	.video-1
+	{
+		background-image: url(../img/bg-video-1.png);
+		background-size:contain, cover;
+		background-repeat: no-repeat;
+		padding: 20px 0;
+		text-align: center;
+		margin: 0;
+	}
+
+	.video-1 video
+	{
+		width: 300px;
+		border-radius: 10px;
+	}
+	
 }

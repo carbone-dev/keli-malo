@@ -15,11 +15,11 @@
 		
 
 	
-		<div id="header">
-			<div class="logo">
+		<div id="header" class="row">
+			<div class="logo col-2">
 				<img src="img/logo.png">
 			</div>
-			<div class="menu">
+			<div class="menu col-8 right">
 				<a href="#">blog</a>
 				<a href="#" class="boutton-1">Nous contacter</a>
 			</div>
@@ -29,43 +29,44 @@
 		<div id="contenu">
 
 
-			<div class="le-heros">
-				<div class="le-heros-left">
+			<div class="le-heros row">
+				<div class="le-heros-left col-6">
 					<h1>Le héros de votre santé familiale.</h1>
 					<p>
 						malo est une application sécurisée de suivi et de partage des évènements de santé, de la naissance à l'adolescence.
 					</p>
+					<img src="img/img-le-heros-phone.png" class="img-le-heros">
 					<div class="img-boutton">
 						<a href="#"><img src="img/app-store.png"></a>
 						<a href="#"><img src="img/google-play.png"></a>
 					</div>
 				</div>
-				<div class="le-heros-right">
-					<img src="img/le-heros-right.png">
+				<div class="le-heros-right col-4 right">
+					<img src="img/le-heros-right.png" width="70%">
 				</div>	
 			</div>
 
-			<div class="malo-c-est-quoi">
+			<div class="malo-c-est-quoi center">
 				<h2>malo, c'est quoi ?</h2>
 				<p>Lorem ipsum dolor sit amet, consetetur </p>
-				<div class="contenu-malo-c-est-quoi">
-					<div class="img-left-malo">
-						<img src="img/phone-left.png">
+				<div class="contenu-malo-c-est-quoi row">
+					<div class="img-left-malo col-4">
+						<img src="img/phone-left.png" width="75%">
 					</div>
-					<div class="contenu-right">
-						<div class="contenu-right-text">
+					<div class="contenu-right col-6 left">
+						<div class="box-shadow contenu-right-text col-8">
 							<h5>Consignez et conservez</h5>
 							<p><span>les éléments de santé importants de vos enfants dans leur journal</span></p>
 						</div>
-						<div class="contenu-right-text contenu-right-text-demi">
+						<div class="box-shadow contenu-right-text col-5">
 							<h5>Suivez leur croissance </h5>
 							<p><span>mois par mois </span></p>
 						</div>
-						<div class="contenu-right-text">
+						<div class="box-shadow contenu-right-text col-8">
 							<h5>Répondez à des questionnaires </h5>
 							<p><span>du développement psycho-moteur développés par des pédiatres</span></p>
 						</div>
-						<div class="contenu-right-text contenu-right-text-4 contenu-right-text-demi">
+						<div class="box-shadow contenu-right-text col-5">
 							<h5>Partagez</h5>
 							<p><span>les données au sein du foyer</span></p>
 						</div>
@@ -78,12 +79,12 @@
 				</div>	
 			</div>
 
-			<div class="malo-video">
+			<div class="malo-video row">
 				
-				<div class="titre-video-1">
+				<div class="titre-video-1 col-35">
 					<h3>malo, l'outil <br>complémentaire <br>du carnet de <br>santé</h3>
 				</div>
-				<div class="video-1">
+				<div class="video-1 col-65">
 					<video autobuffer controls id="videos-1">
 						<source id="mp4" src="img/video.mp4" type="video/mp4">
 					</video>
@@ -443,6 +444,7 @@
 document.getElementById('play-vid').onclick = function () {
     document.getElementById('videos-1').play();
     document.getElementById('play-vid').style.display='none'
+
 };
 document.getElementById('play-vid-2').onclick = function () {
     document.getElementById('videos-2').play();
