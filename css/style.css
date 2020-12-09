@@ -153,129 +153,61 @@ ul {
 }
 /*-------malo-VIDEO------*/
 
-.malo-video {
-  background-image: url(../img/bg-malo-video.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  margin-top: 10%;
-  padding-bottom: 10%;
+.expert
+{
+	margin-top: 15%;
 }
-#play-vid {
-  position: absolute;
-  right: 35%;
-  z-index: 0;
+.expert h1
+{
+	margin-bottom: 5%
 }
-.video-1 {
-  background-image: url(../img/bg-video-1.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding: 30px 0;
+#play-vid-2
+	{
+		position: absolute;
+		right:70%;
+		z-index: 0;
+	}
+.expert-video
+{
+	background-image: url(../img/bg-video-2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-align: left;
+	padding: 20px 0;
 }
-
-.video-1 video {
-  width: 700px;
-  border-radius: 20px;
-  outline-style: none;
-}
-
-/*-------malo-VIDEO------*/
-
-.expert {
-  margin-top: 15%;
-  text-align: center;
-  justify-content: center;
-}
-.expert-flex {
-  display: flex;
-  align-items: center;
-  margin-top: 70px;
-}
-#play-vid-2 {
-  position: absolute;
-  right: 70%;
-  z-index: 0;
-}
-.expert-video {
-  width: 60%;
-  background-image: url(../img/bg-video-2.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding: 20px;
-  text-align: left;
-}
-.expert-video video {
-  width: 540px;
-  border-radius: 20px;
-  padding-left: 10px;
-  outline-style: none;
-}
-.video-wrapper {
-  position: relative;
+.expert-video video
+{
+	width: 530px;
+    border-radius:20px;
+    outline-style: none;
+    margin-left: 30px;
 }
 
-.video-wrapper > video {
-  width: 540px;
-  border-radius: 20px;
-}
 
-.video-wrapper > video.has-media-controls-hidden::-webkit-media-controls {
-  display: none;
-}
-
-.video-overlay-play-button {
-  box-sizing: border-box;
-  width: 510px;
-  height: 100%;
-  padding: 120px 120px 160px 160px;
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  display: block;
-  opacity: 0.95;
-  cursor: pointer;
-  background-color: rgb(0, 0, 0, 0);
-  transition: opacity 150ms;
-}
-
-.video-overlay-play-button:hover {
-  opacity: 1;
-}
-
-.video-overlay-play-button.is-hidden {
-  display: none;
-}
-
-#expert-contenu {
-  text-align: right;
-  width: 40%;
-}
-
-.expert-contenu {
-  display: flex;
-  margin-top: 15px;
-}
-#expert-contenu h6 {
-  margin-top: 20px;
-}
 
 /*------CAROUSEL------*/
-.les-parents {
-  margin-top: 10%;
+.les-parents
+{
+	margin-top: 10%;
 }
-.carousel {
-  background-image: url(../img/bg-carousel.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  padding: 30px 15px;
+.carousel
+{
+	background-image: url(../img/bg-carousel.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	padding:10px;
 }
-.slide {
-  margin: 10px;
-  padding-bottom: 50px;
-  width: 50%;
+.slide
+{
+	padding-bottom: 50px;
+	margin:2%;
+
 }
-.img-profil {
-  margin-right: 20px;
-  margin-bottom: 30px;
+.img-profil
+{
+	margin-right: 20px;
+	margin-bottom: 30px;
+
 }
 .fade {
   -webkit-animation-name: fade;
@@ -302,10 +234,12 @@ ul {
   }
 }
 /* Next & previous buttons */
-.fleche {
-  text-align: right;
-  position: relative;
-  top: -100px;
+
+.fleche
+{
+	text-align: right;
+	position: relative;
+	top: -50px;
 }
 .prev {
   color: gray;
@@ -628,128 +562,171 @@ ul {
 
 /*-------MEDIA ------*/
 
-@media only screen and (min-width: 107px) and (max-width: 480px) {
-  /* .col-10,
-  .col-9,
-  .col-8,
-  .col-7,
-  .col-6,
-  .col-65,
-  .col-5,
-  .col-55,
-  .col-4,
-  .col-45,
-  .col-35,
-  .col-3,
-  .col-2,
-  .col-1 {
-    width: 100% !important;
-    margin: 5% 0;
-    text-align: center !important;
-    align-items: center !important;
-    justify-content: center !important;
-  } */
-  .col-reverse {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  .box-shadow {
-    padding: 5px;
-    box-shadow: 0px 0px 20px rgb(26, 90, 157, 0.1);
-    margin: 20px 0;
-    border-radius: 5px;
-  }
-  #container {
-    margin: 2% 10%;
-    text-align: center;
-  }
-  .img-boutton img {
-    width: 40% !important;
-  }
 
-  h1,
-  h2,
-  h3 {
-    font-size: 28px !important;
-    line-height: 35px !important;
-    margin-bottom: 1%;
-  }
-  h5 {
-    line-height: 19px;
-    font-size: 16px;
-  }
-  h6 {
-    line-height: 20px;
-    font-size: 16px;
-  }
-  a,
-  p,
-  span {
-    font-size: 15px !important;
-    line-height: 23px !important;
-    margin-bottom: 1%;
-  }
 
-  li {
-    font-family: verdana;
-    font-size: 14px;
-    color: black;
-    line-height: 23px;
-  }
-  ul {
-    padding-left: 15px;
-  }
 
-  /*-------LE HEROS------*/
 
-  .le-heros-right {
-    display: none;
-  }
-  .img-le-heros {
-    display: initial !important;
-  }
-  .le-heros {
-    background-image: inherit;
-  }
-  .le-heros img {
-    width: 60%;
-    margin-top: 5%;
-  }
+	@media only screen and (min-width: 107px) and (max-width: 480px)
+{
+	.col-reverse
+	{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.box-shadow
+	{
+		padding:5px;
+		box-shadow: 0px 0px 20px rgb(26, 90, 157,0.1);
+		margin: 20px 0;
+		border-radius: 5px;
 
-  /*-------malo-VIDEO------*/
+	}
+	#container
+	{
+		margin: 2% 10%;
+		text-align: center;
+	}
+	.img-boutton img
+	{
+		width: 40% !important;
+	}
 
-  .malo-video {
-    background-image: none;
-    padding: 0;
-  }
-  .titre-video-1 {
-    background-image: url(../img/bg-malo-phone.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding-bottom: 15%;
-  }
-  .titre-video-1 h3 {
-    text-align: left;
-  }
-  #play-vid {
-    position: relative;
-    right: -150px;
-    top: -140px;
-    z-index: 0;
-  }
-  .video-1 {
-    background-image: url(../img/bg-video-1.png);
-    background-size: contain, cover;
-    background-repeat: no-repeat;
-    padding: 20px 0;
-    text-align: center;
-    margin: 0;
-  }
+	h1, h2, h3
+	{
+		font-size: 28px !important;
+		line-height: 35px !important;
+		margin-bottom: 1%;
+	}
+	h5
+	{
+		line-height: 19px;
+		font-size: 16px;
+	}
+	h6
+	{
+		line-height: 20px;
+		font-size: 16px;
+	}
+	a, p, span
+	{
+		font-size:15px !important;
+		line-height: 23px !important;
+		margin-bottom: 1%;
+	}
 
-  .video-1 video {
-    width: 300px;
-    border-radius: 10px;
-  }
+	li
+	{
+		font-family: verdana;
+		font-size:14px;
+		color:black;
+		line-height: 23px;
+	}
+	ul
+	{
+		padding-left:15px;
+	}
+
+/*-------LE HEROS------*/
+
+
+	.le-heros-right
+	{
+		display: none;
+	}
+	.img-le-heros
+	{
+		display:initial !important;
+	}
+	.le-heros
+	{
+		background-image: inherit;
+	}
+	.le-heros img
+	{
+		width: 60%;
+		margin-top: 5%;
+	}
+
+	/*-------malo-VIDEO------*/
+
+	.malo-video
+	{
+		background-image:none;
+		padding: 0;
+	}
+	.titre-video-1
+	{
+		background-image: url(../img/bg-malo-phone.png);
+		background-size:100%;
+		background-repeat: no-repeat;
+		padding-bottom: 15%;
+	}
+	.titre-video-1 h3
+	{
+		text-align: left;
+	}
+	#play-vid
+	{
+		position: relative;
+		right:-150px;
+		top:-140px;
+		z-index: 0;
+	}
+	.video-1
+	{
+		background-image: url(../img/bg-video-1.png);
+		background-size:contain, cover;
+		background-repeat: no-repeat;
+		padding: 20px 0;
+		text-align: center;
+		margin: 0;
+	}
+
+	.video-1 video
+	{
+		width: 300px;
+		border-radius: 10px;
+	}
+	
+
+	/*-------malo-VIDEO------*/
+
+
+#play-vid-2
+	{
+		position: relative;
+		margin:0;
+		right:-150px;
+		top: -140px;
+		z-index: 0;
+	}
+	.expert-video
+	{
+		background-image: url(../img/bg-video-2.png);
+		text-align: center;
+		padding: 10px 0;
+	}
+	.expert-video video
+	{
+		width: 300px;
+	    border-radius:20px;
+	    outline-style: none;
+	    margin:0;
+	}
+
+			/*-------carousel------*/
+	.carousel
+	{
+		background-image: url(../img/bg-carousel.png);
+	}
+
+	.fleche
+	{
+		text-align: right;
+		position: relative;
+		top: -50px;
+	}
+
 }
