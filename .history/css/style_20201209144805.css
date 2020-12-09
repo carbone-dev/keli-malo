@@ -15,18 +15,6 @@ body {
   width: 100%;
 }
 
-.primary {
-  color: #de397c;
-}
-
-.secondary {
-  color: #1a5a9d;
-}
-
-.tertiary {
-  color: #ffbf00;
-}
-
 .btn-primary {
   background-color: #de397c;
 }
@@ -53,10 +41,6 @@ body {
 
 .section h3 {
   margin-bottom: 39px;
-}
-
-.section h2 {
-  margin-bottom: 94px;
 }
 
 .margin-bottom{

@@ -51,11 +51,11 @@ body {
   margin-top: 45px;
 }
 
-.section h3 {
+.section h3:first-child  {
   margin-bottom: 39px;
 }
 
-.section h2 {
+.section h2:first-child  {
   margin-bottom: 94px;
 }
 

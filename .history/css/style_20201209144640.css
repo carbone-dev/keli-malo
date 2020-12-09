@@ -3,7 +3,7 @@ body {
 }
 .btn {
   height: 55px;
-  padding: 12px 12px 19px;
+  padding: 12px 76px 19px;
   border-radius: 8px;
   color: #fff;
   border: none;
@@ -13,18 +13,6 @@ body {
 
 .full-width{
   width: 100%;
-}
-
-.primary {
-  color: #de397c;
-}
-
-.secondary {
-  color: #1a5a9d;
-}
-
-.tertiary {
-  color: #ffbf00;
 }
 
 .btn-primary {
@@ -53,10 +41,6 @@ body {
 
 .section h3 {
   margin-bottom: 39px;
-}
-
-.section h2 {
-  margin-bottom: 94px;
 }
 
 .margin-bottom{
@@ -619,7 +603,7 @@ ul {
   }
 
   .btn {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .col-reverse {
