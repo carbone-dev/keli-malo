@@ -268,9 +268,9 @@ ul {
 }
 
 /*-------BLOG-MALO------*/
-}
+
 .bg-decouvrir {
-  background-color: red;
+  background-image: url(../img/bg-decouvrir.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
