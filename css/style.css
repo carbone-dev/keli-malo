@@ -42,6 +42,7 @@ body {
 h1,
 h2,
 h3,
+h4,
 h5,
 h6 {
   font-family: montserrat;
@@ -57,9 +58,15 @@ h2 {
   line-height: 50px;
 }
 h3 {
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 40px;
+  line-height: 40px;
   margin-bottom: 30px;
+}
+h4
+{
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 10px;
 }
 h5 {
   color: #1a5a9d;
@@ -122,7 +129,7 @@ ul {
   border: 2px solid;
   border-radius: 8px;
   outline: none;
-  margin: 10px;
+  margin: 10px 5px;
   font-size: 20px;
   padding: 15px;
 }
@@ -137,10 +144,6 @@ ul {
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.img-le-heros {
-  display: none;
-}
-
 /*-------malo-c-est-quoi------*/
 
 .malo-c-est-quoi {
@@ -276,25 +279,17 @@ ul {
 }
 
 /*-------POPUP------*/
-.popup {
-  margin-top: 10%;
-}
-.popup img {
-}
 .contenu-popup {
   background-color: #1a5a9d;
   border-radius: 20px;
-  align-items: center;
   padding: 60px;
 }
 .titre-popup {
-  width: 50%;
   color: white;
   margin: 0;
 }
 
 .formulaire-popup {
-  width: 50%;
   color: white;
 }
 .mail-popup {
@@ -318,12 +313,7 @@ ul {
 }
 
 /*-------CONTACT------*/
-.contactez-nous {
-  margin-top: 10%;
-}
-.contenu-contact {
-  width: 50%;
-}
+
 .contenu-contact p {
   line-height: 50px;
   margin: 20px;
@@ -335,7 +325,6 @@ ul {
   margin-right: 20px;
 }
 .formulaire-contact {
-  width: 50%;
   background-image: url(../img/bg-formulaire-contact.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -343,22 +332,18 @@ ul {
 .bg-contact {
   padding: 10px;
   background-color: white;
-  margin: 30px;
-
+  margin: 20px;
   box-shadow: 0px 0px 30px rgb(26, 90, 157, 0.1);
   border-radius: 15px;
 }
-.form-2 {
-  width: 200px;
-  border-color: #d8d8d8;
-  color: black;
+.bg-contact .boutton-contact
+{
+  margin-left: 5%;
 }
-.form-1 {
-  width: 460px;
-}
+
 .contact-text {
   border-color: #d8d8d8;
-  font-family: montserrat;
+  font-family: arial;
 }
 .contact-text::placeholder {
   color: black;
@@ -368,28 +353,23 @@ ul {
 
 /*-------il nous soutien------*/
 
-.il-nous-soutiennent {
-  margin-top: 10%;
-}
 
 .il-nous-soutiennent h1 {
   margin-left: 20%;
 }
+.il-nous-soutiennent .center
+{
+  display: flex;
+  flex-wrap: nowrap;
+}
 
 /*-------footer------*/
 .footer {
-  margin-top: 10%;
   background-color: #1a5a9d;
 }
 .logo-popup {
   padding: 40px;
   margin: 0;
-}
-.logo-boutton {
-  width: 50%;
-}
-.popup-icon {
-  width: 45%;
 }
 .news-letter h3 {
   margin-bottom: 0;
@@ -550,8 +530,23 @@ ul {
 
 
 
-	@media only screen and (min-width: 107px) and (max-width: 480px)
+	@media only screen and (min-width: 107px) and (max-width: 768px)
 {
+  .center-p {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.left-p {
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+.right-p {
+  text-align: right;
+  justify-content: center;
+  align-items: center;
+}
 	.col-reverse
 	{
 		display: flex;
@@ -583,6 +578,11 @@ ul {
 		line-height: 35px !important;
 		margin-bottom: 1%;
 	}
+  h4
+  {
+    line-height: 24px;
+    font-size: 20px;
+  }
 	h5
 	{
 		line-height: 19px;
@@ -614,23 +614,9 @@ ul {
 
 /*-------LE HEROS------*/
 
-
-	.le-heros-right
-	{
-		display: none;
-	}
-	.img-le-heros
-	{
-		display:initial !important;
-	}
 	.le-heros
 	{
 		background-image: inherit;
-	}
-	.le-heros img
-	{
-		width: 60%;
-		margin-top: 5%;
 	}
 
 	/*-------malo-VIDEO------*/
@@ -645,7 +631,6 @@ ul {
 		background-image: url(../img/bg-malo-phone.png);
 		background-size:100%;
 		background-repeat: no-repeat;
-		padding-bottom: 15%;
 	}
 	.titre-video-1 h3
 	{
@@ -654,7 +639,7 @@ ul {
 	#play-vid
 	{
 		position: relative;
-		right:-150px;
+		right:0px;
 		top:-140px;
 		z-index: 0;
 	}
@@ -670,7 +655,7 @@ ul {
 
 	.video-1 video
 	{
-		width: 300px;
+		width: 100%;
 		border-radius: 10px;
 	}
 	
@@ -682,7 +667,7 @@ ul {
 	{
 		position: relative;
 		margin:0;
-		right:-150px;
+		right:0px;
 		top: -140px;
 		z-index: 0;
 	}
@@ -694,7 +679,7 @@ ul {
 	}
 	.expert-video video
 	{
-		width: 300px;
+		width: 100%;
 	    border-radius:20px;
 	    outline-style: none;
 	    margin:0;
@@ -703,14 +688,47 @@ ul {
 			/*-------carousel------*/
 	.carousel
 	{
-		background-image: url(../img/bg-carousel.png);
+		background-image: url(../img/bg-carousel-p.png);
+    margin: 0;
+    padding: 0;
 	}
 
 	.fleche
 	{
 		text-align: right;
 		position: relative;
-		top: -50px;
+		top:0px;
 	}
 
+  .bg-decouvrir {
+  background-image: url(../img/bg-decouvrir-p.png);
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
+
+.boutton-contact {
+  padding: 10px 50px;
+  margin: 10px;
+  font-size: 18px;
+}
+.formulaire {
+  margin: 5px 5px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.bg-contact {
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  box-shadow: 0px 0px 30px rgb(26, 90, 157, 0.1);
+  border-radius: 15px;
+}
+.il-nous-soutiennent h1 {
+  margin-left:0;
+}
+.il-nous-soutiennent img
+{
+  width: 30%;
+}
 }
