@@ -216,14 +216,10 @@ body
 .expert
 {
 	margin-top: 15%;
-	text-align: center;
-	justify-content: center;
 }
-.expert-flex
+.expert h1
 {
-	display: flex;
-	align-items: center;
-	margin-top: 70px;
+	margin-bottom: 5%
 }
 #play-vid-2
 	{
@@ -233,72 +229,21 @@ body
 	}
 .expert-video
 {
-	width: 60%;
 	background-image: url(../img/bg-video-2.png);
 	background-size: contain;
 	background-repeat: no-repeat;
-	padding: 20px;
 	text-align: left;
+	padding: 20px 0;
 }
 .expert-video video
 {
-	width: 540px;
-    border-radius: 20px;
-    padding-left: 10px;
+	width: 530px;
+    border-radius:20px;
     outline-style: none;
-}
-.video-wrapper {
-    position: relative;
+    margin-left: 30px;
 }
 
-.video-wrapper > video {
-    width: 540px;
-    border-radius: 20px;
-}
 
-.video-wrapper > video.has-media-controls-hidden::-webkit-media-controls {
-    display: none;
-}
-
-.video-overlay-play-button {
-    box-sizing: border-box;
-    width: 510px;
-    height: 100%;
-    padding:120px 120px 160px 160px;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    display: block;
-    opacity: 0.95;
-    cursor: pointer;
-    background-color:rgb(0, 0, 0, 0);
-    transition: opacity 150ms;
-}
-
-.video-overlay-play-button:hover {
-    opacity: 1;
-}
-
-.video-overlay-play-button.is-hidden {
-    display: none;
-}
-
-#expert-contenu
-{
-	text-align: right;
-	width: 40%;
-	
-}
-
-.expert-contenu
-{
-	display: flex;
-	margin-top: 15px;
-}
-#expert-contenu h6
-{
-	margin-top: 20px;
-}
 
 /*------CAROUSEL------*/
 .les-parents
@@ -310,13 +255,13 @@ body
 	background-image: url(../img/bg-carousel.png);
 	background-size:100% 100%;
 	background-repeat: no-repeat;
-	padding: 30px 15px;
+	padding:10px;
 }
 .slide
 {
-	margin: 10px;
 	padding-bottom: 50px;
-	width: 50%
+	margin:2%;
+
 }
 .img-profil
 {
@@ -344,7 +289,7 @@ body
 {
 	text-align: right;
 	position: relative;
-	top: -100px;
+	top: -50px;
 }
 .prev
 {
@@ -845,4 +790,43 @@ body
 		border-radius: 10px;
 	}
 	
+
+	/*-------malo-VIDEO------*/
+
+
+#play-vid-2
+	{
+		position: relative;
+		margin:0;
+		right:-150px;
+		top: -140px;
+		z-index: 0;
+	}
+	.expert-video
+	{
+		background-image: url(../img/bg-video-2.png);
+		text-align: center;
+		padding: 10px 0;
+	}
+	.expert-video video
+	{
+		width: 300px;
+	    border-radius:20px;
+	    outline-style: none;
+	    margin:0;
+	}
+
+			/*-------carousel------*/
+	.carousel
+	{
+		background-image: url(../img/bg-carousel.png);
+	}
+
+	.fleche
+	{
+		text-align: right;
+		position: relative;
+		top: -50px;
+	}
+
 }

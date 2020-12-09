@@ -69,3 +69,11 @@ button-secondary
 	}
 
 videoMethods.renderVideoPlayButton()
+
+
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+
+
