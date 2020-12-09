@@ -3,7 +3,7 @@ body {
 }
 
 img {
-  /* width: 100%; */
+  width: 100%;
 }
 
 #container {
@@ -629,7 +629,7 @@ ul {
 /*-------MEDIA ------*/
 
 @media only screen and (min-width: 107px) and (max-width: 480px) {
-  /* .col-10,
+  .col-10,
   .col-9,
   .col-8,
   .col-7,
@@ -648,7 +648,7 @@ ul {
     text-align: center !important;
     align-items: center !important;
     justify-content: center !important;
-  } */
+  }
   .col-reverse {
     display: flex;
     flex-wrap: wrap;
