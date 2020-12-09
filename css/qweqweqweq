@@ -72,7 +72,7 @@ videoMethods.renderVideoPlayButton()
 
 
 git add .
-git commit -m "Initial commit"
+git commit -m "responsive"
 git push -u origin master
 
 

@@ -20,7 +20,30 @@ html {
   margin-right: auto;
   margin-left: auto;
 }
-
+.mt-5
+{
+  margin-top: 5%;
+}
+.mt-10
+{
+  margin-top: 10%;
+}
+.mt-15
+{
+  margin-top: 15%;
+}
+.pb-5
+{
+  padding-bottom: 5%;
+}
+.pb-10
+{
+  padding-bottom: 10%;
+}
+.pb-15
+{
+  padding-bottom: 15%;
+}
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
