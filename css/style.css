@@ -2,9 +2,6 @@ body {
   margin: 0;
 }
 
-img {
-  /* width: 100%; */
-}
 
 #container {
   margin: 2% 7%;
@@ -12,12 +9,12 @@ img {
 
 @media only screen and (min-width: 1367px) and (max-width: 1600px) {
   #container {
-    margin: 2% 8%;
+    margin: 2% 7%;
   }
 }
 @media only screen and (min-width: 1601px) and (max-width: 1920px) {
   #container {
-    margin: 2% 20%;
+    margin: 2% 10%;
   }
 }
 @media only screen and (min-width: 1921px) and (max-width: 9000px) {
@@ -149,10 +146,35 @@ ul {
   margin-top: 10%;
 }
 .contenu-malo-c-est-quoi {
-  margin: 10% 3%;
+  margin: 5% 0%;
 }
 /*-------malo-VIDEO------*/
-
+.malo-video
+{
+	background-image: url(../img/bg-malo-video.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.video-1
+{
+	background-image: url(../img/bg-video-1.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+	padding: 20px 0;
+}
+#play-vid
+	{
+		position: absolute;
+		right:35%;
+		z-index: 0;
+	}
+.video-1 video
+{
+	width: 700px;
+    border-radius:20px;
+    outline-style: none;
+}
+/*-------expert-video------*/
 .expert
 {
 	margin-top: 15%;
