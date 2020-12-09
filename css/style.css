@@ -125,6 +125,10 @@ ul {
 .img-boutton a {
   margin-right: 20px;
 }
+.img-boutton img
+{
+  width: 25%;
+}
 .formulaire {
   border: 2px solid;
   border-radius: 8px;
@@ -530,7 +534,7 @@ ul {
 
 
 
-	@media only screen and (min-width: 107px) and (max-width: 768px)
+	@media only screen and (min-width: 107px) and (max-width: 767px)
 {
   .center-p {
   justify-content: center;
@@ -569,7 +573,7 @@ ul {
 	}
 	.img-boutton img
 	{
-		width: 40% !important;
+		width: 25% !important;
 	}
 
 	h1, h2, h3
