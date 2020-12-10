@@ -44,6 +44,60 @@ html {
 {
   padding-bottom: 15%;
 }
+
+.pt-5
+{
+  padding-bottom: 5%;
+}
+.pt-10
+{
+  padding-bottom: 10%;
+}
+.pt-15
+{
+  padding-bottom: 15%;
+}
+.mr-2
+{
+  margin-right: 2%;
+}
+.mr-3
+{
+  margin-right: 3%;
+}
+.mr-4
+{
+  margin-right: 4%;
+}
+.mr-5
+{
+  margin-right: 5%;
+}
+.mr-10
+{
+  margin-right: 10%;
+}
+.ml-2
+{
+  margin-left: 2%;
+}
+.ml-3
+{
+  margin-left: 3%;
+}
+.ml-4
+{
+  margin-left: 4%;
+}
+.ml-5
+{
+  margin-left: 5%;
+}
+.ml-10
+{
+  margin-left: 10%;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;

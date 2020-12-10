@@ -10,13 +10,16 @@ body {
   color: #fff;
   border: none;
   font-size: 24px;
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
 }
 
 .full-width{
   width: 100%;
 }
-
+.black
+{
+  color: black;
+}
 .primary {
   color: #de397c;
 }
@@ -100,6 +103,10 @@ body {
   margin: 20px 0;
   border-radius: 15px;
 }
+.shadow {
+  box-shadow: 0px 0px 30px rgb(26, 90, 157, 0.1);
+  border-radius: 15px;
+}
 
 h1,
 h2,
@@ -132,7 +139,7 @@ h4
 }
 h5 {
   color: #1a5a9d;
-  line-height: 20px;
+  line-height: 25px;
   font-size: 20px;
 }
 h6 {
@@ -154,7 +161,7 @@ span {
   font-size: 13px;
 }
 li {
-  font-family: verdana;
+  font-family:'Poppins', sans-serif;
   font-size: 14px;
   color: black;
   line-height: 23px;
@@ -179,6 +186,7 @@ ul {
   margin: 10px;
   font-size: 20px;
   border-style: none;
+  font-family:'Poppins', sans-serif;
 }
 
 .img-boutton {
@@ -247,7 +255,7 @@ ul {
 #play-vid-2
 	{
 		position: absolute;
-		right:70%;
+		right:65%;
 		z-index: 0;
 	}
 .expert-video
@@ -357,7 +365,7 @@ ul {
   border-color: white;
   background-color: rgb(0, 0, 0, 0);
   color: white;
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
 .mail-popup::placeholder {
@@ -367,7 +375,7 @@ ul {
   border-color: white;
   background-color: white;
   padding: 15px 30px;
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   color: #de397c;
   cursor: pointer;
@@ -400,16 +408,17 @@ ul {
 .bg-contact .boutton-contact
 {
   margin-left: 5%;
+  font-family:'Poppins', sans-serif;
 }
 
 .contact-text {
   border-color: #d8d8d8;
-  font-family: arial;
+  font-family:'Poppins', sans-serif;
 }
 .contact-text::placeholder {
   color: black;
   border-color: #d8d8d8;
-  font-family: arial;
+  font-family:'Poppins', sans-serif;
 }
 
 /*-------il nous soutien------*/
@@ -575,12 +584,12 @@ ul {
 }
 .left {
   text-align: left;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .right {
   text-align: right;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
 }
 
@@ -643,7 +652,7 @@ ul {
   }
 
   li {
-    font-family: verdana;
+    font-family:'Poppins', sans-serif;
     font-size: 14px;
     color: black;
     line-height: 23px;
