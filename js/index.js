@@ -31,3 +31,6 @@ function showSlides(n) {
 	}
 	slides[slideIndex - 1].style.display = "block";
 }
+setInterval(function(){
+	plusSlides(1)
+}, 5000);

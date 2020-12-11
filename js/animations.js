@@ -1,4 +1,5 @@
 // Detect request animation frame
+
 var scroll = window.requestAnimationFrame ||
              // IE Fallback
              function(callback){ window.setTimeout(callback, 1000/60)};
