@@ -1,4 +1,15 @@
-
+html
+{
+  overflow-x:hidden;
+}
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../police/Poppins-Black.woff') format('woff');
+}
+@font-face {
+    font-family: 'poppins-normal';
+    src: url('../police/Poppins-Regular.woff') format('woff');
+}
 
 body {
   margin: 0;
@@ -10,7 +21,7 @@ body {
   color: #fff;
   border: none;
   font-size: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'poppins-normal';
   cursor: pointer;
 }
 .btn:hover {
@@ -120,8 +131,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family:'Poppins', sans-serif;
-  font-weight: 900;
+  font-family:'poppins-bold';
   margin: 0;
 }
 h1 {
@@ -157,7 +167,7 @@ a,
 p {
   margin: 0;
   text-decoration: none;
-  font-family:'Poppins', sans-serif;
+  font-family:'poppins-normal';
   font-size: 19px;
   color: black;
   font-weight: 300;
@@ -167,7 +177,7 @@ span {
   font-size: 13px;
 }
 li {
-  font-family:'Poppins', sans-serif;
+  font-family:'poppins-normal';
   font-size: 14px;
   color: black;
   line-height: 23px;
@@ -191,14 +201,14 @@ ul {
 .boutton-contact {
   color: white;
   background-color: #de397c;
-  padding: 15px 100px;
+  padding: 13px 50px;
   border-color: #de397c;
   border-radius: 8px;
   outline: none;
-  margin: 10px;
+  margin: 15px;
   font-size: 20px;
   border-style: none;
-  font-family:'Poppins', sans-serif;
+  font-family:'poppins-normal';
   cursor: pointer;
 }
 .boutton-contact:hover {
@@ -227,9 +237,9 @@ ul {
   border: 2px solid;
   border-radius: 8px;
   outline: none;
-  margin: 10px 5px;
+  margin: 13px 5px;
   font-size: 20px;
-  padding: 15px;
+  padding: 10px;
 }
 
 /*-------header------*/
@@ -389,7 +399,7 @@ ul {
   border-color: white;
   background-color: rgb(0, 0, 0, 0);
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'poppins-normal';
   font-weight: bold;
 }
 .mail-popup::placeholder {
@@ -398,8 +408,8 @@ ul {
 .boutton-popup {
   border-color: white;
   background-color: white;
-  padding: 15px 30px;
-  font-family: 'Poppins', sans-serif;
+  padding: 10px 30px;
+  font-family: 'poppins-normal';
   font-weight: bold;
   color: #de397c;
   cursor: pointer;
@@ -433,17 +443,17 @@ ul {
 .bg-contact .boutton-contact
 {
   margin-left: 5%;
-  font-family:'Poppins', sans-serif;
+  font-family:'poppins-normal';
 }
 
 .contact-text {
   border-color: #d8d8d8;
-  font-family:'Poppins', sans-serif;
+  font-family:'poppins-normal';
 }
 .contact-text::placeholder {
   color: black;
   border-color: #d8d8d8;
-  font-family:'Poppins', sans-serif;
+  font-family:'poppins-normal';
 }
 
 /*-------il nous soutien------*/
@@ -488,10 +498,16 @@ ul {
 }
 .boutton-footer {
   color: white;
-  background-color: #de397c;
+  font-family: poppins;
+ background-color: #de397c;
   border-color: #de397c;
-  padding: 15px 40px;
+  padding: 10px 40px;
   cursor: pointer;
+}
+.boutton-footer:hover {
+  opacity: 0.7;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
 }
 
 .menu-footer {
@@ -689,7 +705,7 @@ ul {
   }
 
   li {
-    font-family:'Poppins', sans-serif;
+    font-family:'poppins-normal';
     font-size: 14px;
     color: black;
     line-height: 23px;
