@@ -105,37 +105,20 @@
     line-height: 1 !important;
   }
   .blog-content p {
-    font-size: 12px !important;
-    height: 15px;
+    font-size: 8px !important;
   }
 
   .blog-content span {
     font-size: 8px !important;
   }
 
-  .blog-img img {
-    height: 121px;
-  }
-  
-  .blog-content {
-    height: 121px;
-  }
-  
   .tag{
-    font-size: 10px !important;
-    padding: 0px 5px 0 5px !important;
-    height: 20px;
-    border-radius: 6px;
+      font-size: 10px !important;
+      padding: 6px !important;
   }
 
   .avatar {
     height: 18px;
     width: 18px;
-  }
-
-  .author {
-    position: relative;
-    top: -5px;
-    left: 5px;
   }
 }

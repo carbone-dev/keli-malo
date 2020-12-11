@@ -83,7 +83,7 @@
 
 .author {
   position: relative;
-  top: -20px;
+  top: -4%;
   left: 10px;
 }
 
@@ -106,21 +106,13 @@
   }
   .blog-content p {
     font-size: 12px !important;
-    height: 15px;
+    height: 14px;
   }
 
   .blog-content span {
     font-size: 8px !important;
   }
 
-  .blog-img img {
-    height: 121px;
-  }
-  
-  .blog-content {
-    height: 121px;
-  }
-  
   .tag{
     font-size: 10px !important;
     padding: 0px 5px 0 5px !important;
