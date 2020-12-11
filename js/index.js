@@ -33,4 +33,4 @@ function showSlides(n) {
 }
 setInterval(function(){
 	plusSlides(1)
-}, 3000);
+}, 5000);
