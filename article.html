@@ -17,47 +17,49 @@
     <div class="container">
 
         <div class="header row align-items-center">
-            <div class="col-6 col-md-2 ">
-                <img class='img-full-width ' src="img/logo.png">
-            </div>
-            <div class="menu col-6 col-md-10 right d-none d-md-block ">
-                <a href="blog.html">Blog</a>
-                <a href="#" class="boutton-1">Nous contacter</a>
-            </div>
-            <div class="menu col-6 col-md-10 right d-md-none d-sm-block">
-                <a href="#nav-mobile">
-                    <img src="img/burger.png" alt="">
-                </a>
-            </div>
+                <div class="col-6 col-md-2 ">
+                    <a href="index.html">
+                        <img class='img-full-width ' src="img/logo.png">
+                    </a>
+                </div>
+                <div class="menu col-6 col-md-10 right d-none d-md-block ">
+                    <a href="blog.html">Blog</a>
+                    <a href="#footer" class="boutton-1" onclick="contact()">Nous contacter</a>
+                </div>
+                <div class="menu col-6 col-md-10 right d-md-none d-sm-block">
+                    <a href="#nav-mobile">
+                        <img src="img/burger.png" alt="">
+                    </a>
+                </div>
 
-            <div id="nav-mobile" class="modaloverlay">
-                <div class="modal">
-                    <div class="row">
-                        <div class="col-6">
-                            <img class='img-full-width ' src="img/logo.png">
+                <div id="nav-mobile" class="modaloverlay">
+                    <div class="modal">
+                        <div class="row">
+                            <div class="col-6">
+                                <img class='img-full-width ' src="img/logo.png">
+                            </div>
+                            <div class="menu col-6 right">
+                                <a href="#close" class="close">
+                                    <img src="img/close.png" alt="">
+                                </a>
+                            </div>
                         </div>
-                        <div class="menu col-6 right">
-                            <a href="#close" class="close">
-                                <img src="img/close.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row align-items-center center modal-content">
-                        <div class="col-12">
-                            <a href="blog.html">Blog</a>
-                        </div>
-                        <div class="col-12">
-                            <a href="#" class="boutton-1">Nous contacter</a>
-                        </div>
-                        <div class="col-12">
-                            <a href="#"><img src="img/instagram.png"></a>
-                            <a href="#"><img src="img/linkedin.png"></a>
-                            <a href="#"><img src="img/facebook.png"></a>
+                        <div class="row align-items-center center modal-content">
+                            <div class="col-12">
+                                <a href="blog.html">Blog</a>
+                            </div>
+                            <div class="col-12">
+                                <a href="#" class="boutton-1">Nous contacter</a>
+                            </div>
+                            <div class="col-12">
+                                <a href="#"><img src="img/instagram.png"></a>
+                                <a href="#"><img src="img/linkedin.png"></a>
+                                <a href="#"><img src="img/facebook.png"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
         <div class="contenu-article">
@@ -131,7 +133,7 @@
                     <img src="img/image-article.png" class="shadow anim-right show-on-scroll" width="88%">
                 </div>
                 <div class="mt-5 row">
-                    <div class="left-icon col-md-2 center d-none d-md-inline over">
+                    <div class="left-icon col-md-2 center d-none d-md-inline icon-fixe">
                         <img src="img/instagram.png"><br><br>
                         <img src="img/linkedin.png"><br><br>
                         <img src="img/facebook.png">
@@ -375,24 +377,50 @@
     </div>
 
 
-    <div class="footer mt-10">
+    <div class="footer mt-10" id="footer">
         <div class="logo-popup row center-p">
             <div class="logo-boutton center col-md-6">
                 <img src="img/logo-footer.png" width="50%"><br>
-                <div class="img-boutton">
+                <div class="img-boutton d-none d-md-block">
                     <a href="#"><img src="img/app-store.png"></a>
                     <a href="#"><img src="img/google-play.png"></a>
                 </div>
             </div>
             <div class="popup-icon col-md-5 left center-p">
-                <div class="box-shadow news-letter">
+                <div class="box-shadow news-letter" id="pop-1">
                     <h4>Newsletter</h4>
                     <p>Inscrivez-vous à notre newsletter pour recevoir <br>les derniers articles du blog !</p>
                     <div class="row center-p">
                         <input type="email" name="mail" placeholder="Entrez votre Email"
                             class="formulaire mail-footer col-md-6 col-6">
-                        <input type="submit" value="S'inscrire" class="formulaire boutton-footer col-md-4 col-4">
+                        <input type="submit" onclick="inscrire()" value="S'inscrire" class="formulaire boutton-footer col-md-4 col-4">
                     </div>
+                </div>
+                <div class="box-shadow confirmation" id="pop" display="display">
+                    <div class="row">
+                        <div class="col-1">
+                            <img src="img/error.png">
+                        </div>
+                        <div class="col-11">
+                            <p><span>
+                                Votre adresse de messagerie est uniquement utilisée pour
+                                vous envoyer les lettres d'informations de /product name/,
+                                au rythme indicatif de /X/ mails/ par mois. Vous pouvez à
+                                tout moment vous désabonner en cliquant sur le lien
+                                <a href="#">"se désabonner"</a><br>
+
+                                <a href="#">En savoir plus sur la gestion de vos données et vos droits </a>
+                            </p></span>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <input type="submit" value="Valider" class="formulaire boutton-footer">
+                    </div>
+                    
+                </div>
+                <div class="img-boutton d-block d-md-none center-p">
+                    <a href="#"><img src="img/app-store.png"></a>
+                    <a href="#"><img src="img/google-play.png"></a>
                 </div>
                 <div class="suivez-footer">
                     <h4>Suivez-nous</h4>
@@ -414,7 +442,12 @@
                 <li><a href="#">Signaler un problème </a></li>
                 <li><a href="#">FAQ </a></li>
             </ul>
-            <p><span>Mentions légales CGU Politique de confidentialité</span></p>
+            <p>
+                <a href="#">Mentions légales</a>
+                <a href="#">CGU</a>
+                <a href="#"> Politique de confidentialité</a>
+             
+            </p>
         </div>
     </div>
 

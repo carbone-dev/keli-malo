@@ -23,9 +23,8 @@
 }
 
 .card-title {
-  font-family: verdana;
+  font-family: poppins-bold;
   font-size: 18px;
-  font-weight: 900;
   text-align: center;
 }
 
@@ -34,9 +33,8 @@
 }
 
 .blog-img {
-  border-radius: 15px;
-  box-shadow: 0 0 25px 0 rgba(34, 90, 157, 0.1);
-  overflow: hidden;
+  
+
   position: relative;
   margin-right: 10px;
 }
@@ -44,7 +42,8 @@
 .blog-img img {
   width: 100%;
   height: 156px;
-  object-fit: cover;
+    box-shadow: 0 0 25px 0 rgba(34, 90, 157, 0.1);
+    border-radius: 15px;
 }
 
 .blog-content {
@@ -101,7 +100,7 @@
 
 @media only screen and (min-width: 107px) and (max-width: 768px) {
   .blog-title {
-    font-size: 12px !important;
+    font-size: 14px !important;
     line-height: 1 !important;
   }
   .blog-content p {
@@ -137,5 +136,13 @@
     position: relative;
     top: -5px;
     left: 5px;
+  }
+  .card-title
+  {
+    font-size: 14px !important;
+  }
+  .btn-p
+  {
+    padding: 15px 70px;
   }
 }

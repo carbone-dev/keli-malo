@@ -41,7 +41,7 @@ document.getElementById("pop").style.display = "block";
 document.getElementById("pop-1").style.display = "none";
 }
 
-
-function contact() {
-  document.getElementById("contact").scrollIntoView();
+function inscrire1() {
+document.getElementById("pop-inscrire-1").style.display = "block";
+document.getElementById("inscrire-1").style.display = "none";
 }
