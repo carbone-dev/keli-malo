@@ -34,3 +34,14 @@ function showSlides(n) {
 setInterval(function(){
 	plusSlides(1)
 }, 5000);
+
+
+function inscrire() {
+document.getElementById("pop").style.display = "block";
+document.getElementById("pop-1").style.display = "none";
+}
+
+
+function contact() {
+  document.getElementById("contact").scrollIntoView();
+}
