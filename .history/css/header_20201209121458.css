@@ -32,14 +32,9 @@
     margin: 0 auto;
     padding-top: 43px;
     padding-left: 15px;
-    overflow-y: hidden;
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
   }
-
-  .modal .social-media a{
-    margin-right: 20px;
-  } 
-  
   @media (min-width: 60em) {
     .modaloverlay .modal {
       height: 75%;
