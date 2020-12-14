@@ -4,11 +4,15 @@ html
 }
 @font-face {
     font-family: 'poppins-bold';
-    src: url('../police/Poppins-Black.woff') format('woff');
+    src: url('../police/Poppins-ExtraBold.woff') format('woff');
 }
 @font-face {
     font-family: 'poppins-normal';
     src: url('../police/Poppins-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('../police/Poppins-Medium.woff') format('woff');
 }
 
 body {
@@ -201,7 +205,7 @@ ul {
 .boutton-contact {
   color: white;
   background-color: #de397c;
-  padding: 13px 50px;
+  padding: 13px 80px;
   border-color: #de397c;
   border-radius: 8px;
   outline: none;
@@ -253,10 +257,9 @@ ul {
   background-repeat: no-repeat;
 }
 /*-------malo-c-est-quoi------*/
-
-.malo-c-est-quoi {
-}
-.contenu-malo-c-est-quoi {
+.contenu-malo-c-est-quoi h5
+{
+  font-family: poppins-medium;
 }
 /*-------malo-VIDEO------*/
 .malo-video
@@ -274,9 +277,10 @@ ul {
 }
 #play-vid
 	{
-		position: absolute;
-		right:35%;
+		position: relative;
+		top:-225px;
 		z-index: 0;
+    cursor: pointer;
 	}
 .video-1 video
 {
@@ -288,24 +292,23 @@ ul {
 
 #play-vid-2
 	{
-		position: absolute;
-		right:65%;
-		z-index: 0;
+    position: relative;
+    top:-175px;
+    z-index: 0;
+    cursor: pointer;
 	}
 .expert-video
 {
 	background-image: url(../img/bg-video-2.png);
 	background-size: contain;
 	background-repeat: no-repeat;
-	text-align: left;
-	padding: 20px 0;
+  padding-top: 20px;
 }
 .expert-video video
 {
 	width: 530px;
-    border-radius:20px;
-    outline-style: none;
-    margin-left: 30px;
+  border-radius:20px;
+  outline-style: none;
 }
 
 /*------CAROUSEL------*/
@@ -358,9 +361,7 @@ ul {
   position: relative;
   top: -50px;
 }
-.prev {
-  color: gray;
-}
+
 .prev,
 .next {
   cursor: pointer;
@@ -426,7 +427,7 @@ ul {
   margin-bottom: 10px;
 }
 .contenu-contact a {
-  margin-right: 20px;
+  margin-right: 30px;
 }
 .formulaire-contact {
   background-image: url(../img/bg-formulaire-contact.png);
@@ -459,9 +460,6 @@ ul {
 /*-------il nous soutien------*/
 
 
-.il-nous-soutiennent h1 {
-  margin-left: 20%;
-}
 .il-nous-soutiennent .center
 {
   display: flex;
@@ -478,15 +476,16 @@ ul {
 }
 .news-letter h4 {
   margin-bottom: 0;
-  font-weight: 400;
+  font-family: poppins-normal;
   color: black;
 }
 .suivez-footer h4 {
   margin-bottom: 10px;
+  font-family: poppins-normal;  
   color: white;
 }
 .suivez-footer a {
-  margin-right: 20px;
+  margin-right: 30px;
 }
 .mail-footer {
   color: #d8d8d8;
@@ -508,6 +507,20 @@ ul {
   opacity: 0.7;
   transition: all 0.5s ease;
   box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}
+.confirmation a
+{
+  text-decoration:underline;
+  font-size: 13px;
+}
+#pop
+{
+  display: none;
+  transition: all 0.5s ease;
+}
+#pop-1
+{
+  transition: all 0.5s ease;
 }
 
 .menu-footer {
@@ -834,10 +847,7 @@ ul {
 	}
 	#play-vid
 	{
-		position: relative;
-		right:0px;
-		top:-140px;
-		z-index: 0;
+    display: none;
 	}
 	.video-1
 	{
@@ -861,11 +871,7 @@ ul {
 
 #play-vid-2
 	{
-		position: relative;
-		margin:0;
-		right:0px;
-		top: -140px;
-		z-index: 0;
+		display: none;
 	}
 	.expert-video
 	{
