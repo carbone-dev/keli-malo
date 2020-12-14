@@ -4,7 +4,7 @@ html
 }
 @font-face {
     font-family: 'poppins-bold';
-    src: url('../police/Poppins-Bold.woff') format('woff');
+    src: url('../police/Poppins-ExtraBold.woff') format('woff');
 }
 @font-face {
     font-family: 'poppins-normal';
@@ -29,10 +29,9 @@ body {
   cursor: pointer;
 }
 .btn:hover {
-  transition: all 0.2s ease;
-  color: #FFBF00;
-  border: 2px solid #FFBF00;
-  background-color: transparent;
+  transition: all 0.5s ease;
+  opacity: 0.8;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
 }
 
 .full-width{
@@ -100,8 +99,6 @@ body {
   text-align: left;
 }
 
-
-
 @media only screen and (min-width: 1367px) and (max-width: 1600px) {
   #container {
     margin: 2% 7%;
@@ -140,24 +137,23 @@ h5,
 h6 {
   font-family:'poppins-bold';
   margin: 0;
-  letter-spacing: 0.7px;
 }
 h1 {
   font-size: 60px;
   line-height: 70px;
 }
 h2 {
-  font-size: 52px;
+  font-size: 50px;
   line-height: 50px;
 }
 h3 {
-  font-size: 38px;
-  line-height: 43px;
+  font-size: 40px;
+  line-height: 40px;
   margin-bottom: 30px;
 }
 h4
 {
-  font-size: 24px;
+  font-size: 27px;
   line-height: 35px;
   margin-bottom: 10px;
 }
@@ -190,7 +186,9 @@ li {
   color: black;
   line-height: 23px;
 }
-
+ul {
+  padding-left: 15px;
+}
 
 .boutton-1 {
   color: white;
@@ -246,7 +244,6 @@ li {
   margin: 13px 5px;
   font-size: 20px;
   padding: 10px;
-  
 }
 
 /*-------header------*/
@@ -384,23 +381,12 @@ li {
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.bg-decouvrir ul
-{
-  padding-left: 15px;
-}
+
 /*-------POPUP------*/
-.img-popup
-{
-  position: relative;
-  top: 10px;
-  z-index: 11;
-}
 .contenu-popup {
   background-color: #1a5a9d;
   border-radius: 20px;
   padding: 60px;
-  z-index: 12;
-  position: relative;
 }
 .titre-popup {
   color: white;
@@ -429,11 +415,6 @@ li {
   color: #de397c;
   cursor: pointer;
 }
-#pop-inscrire-1
-{
-  display: none;
-}
-
 
 
 /*-------CONTACT------*/
@@ -668,7 +649,6 @@ li {
 
 /*-------MEDIA ------*/
 
-
 @media only screen and (min-width: 107px) and (max-width: 768px) {
   .logo-popup {
     padding: 40px 0 40px 0;
@@ -719,6 +699,38 @@ li {
     width: 40% !important;
   }
 
+  h1,
+  h2,
+  h3 {
+    font-size: 28px !important;
+    line-height: 35px !important;
+    margin-bottom: 1%;
+  }
+  h5 {
+    line-height: 19px;
+    font-size: 16px;
+  }
+  h6 {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  a,
+  p,
+  span {
+    font-size: 15px !important;
+    line-height: 23px !important;
+    margin-bottom: 1%;
+  }
+
+  li {
+    font-family:'poppins-normal';
+    font-size: 14px;
+    color: black;
+    line-height: 23px;
+  }
+  ul {
+    padding-left: 15px;
+  }
 
   /*-------LE HEROS------*/
 
@@ -736,6 +748,10 @@ li {
     margin-top: 5%;
   }
 
+  /*-------malo-VIDEO------*/
+
+	@media only screen and (min-width: 107px) and (max-width: 767px)
+{
   .center-p {
   justify-content: center;
   text-align: center;
@@ -799,7 +815,7 @@ li {
 	}
 	a, p, span
 	{
-		font-size:14px !important;
+		font-size:15px !important;
 		line-height: 23px !important;
 		margin-bottom: 1%;
 	}
@@ -896,13 +912,6 @@ li {
   background-size: 120%;
   background-repeat: no-repeat;
 }
-.prevention
-{
-  padding-left: 7%;
-}
-.contenu-popup {
-  padding: 10px;
-}
 
 .boutton-contact {
   padding: 10px 50px;
@@ -911,7 +920,7 @@ li {
 }
 .formulaire {
   margin: 5px 5px;
-  font-size: 14px;
+  font-size: 18px;
   padding: 10px;
 }
 
@@ -951,95 +960,5 @@ li {
   color: white;
   margin:20px !important;
   font-size: 11px !important;
-}
-.logo-popup {
-  padding: 10px;
-  padding-top: 30px;
-}
-.bg-contact {
-  padding: 0px;
-  margin: 0px;
-  margin-top: 10px;
-}
-.bg-contact .boutton-contact
-{
-  margin-left: 0%;
-}
-}
-
-   /*tablette*/
-@media only screen and (min-width: 800px) and (max-width: 1200px) {
- h1 {
-  font-size: 40px;
-  line-height: 50px;
-}
-h2 {
-  font-size: 38px;
-  line-height: 45px;
-}
-h3 {
-  font-size: 28px;
-  line-height: 43px;
-  margin-bottom: 30px;
-}
-h4
-{
-  font-size: 18px;
-  line-height: 30px;
-  margin-bottom: 10px;
-}
-h5 {
-  color: #1a5a9d;
-  line-height: 25px;
-  font-size: 15px;
-}
-h6 {
-  line-height: 20px;
-  font-size: 14px;
-}
-
-a,
-p {
-  margin: 0;
-  text-decoration: none;
-  font-family:'poppins-normal';
-  font-size: 15px;
-  color: black;
-  font-weight: 300;
-  line-height: 27px;
-}
-span {
-  font-size: 13px;
-}
-li {
-  font-family:'poppins-normal';
-  font-size: 15px;
-  color: black;
-  line-height: 23px;
-}
-
-
- #play-vid
-  {
-    top:-190px;
-
-  }
-.video-1 video
-{
-  width: 100%;
-    border-radius:20px;
-    outline-style: none;
-}
-/*-------expert-video------*/
-
-#play-vid-2
-  {
-    top:-185px;
-
-  }
-
-.expert-video video
-{
-  width: 100%;
 }
 }

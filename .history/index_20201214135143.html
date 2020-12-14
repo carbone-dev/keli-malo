@@ -136,12 +136,12 @@
 
 
 				<div class="titre-video-1 col-md-4 left pb-15">
-					<h4 >malo, l'outil <br>complémentaire <br>du carnet de santé</h4><br class="d-md-none d-inline">
+					<h4 >malo, l'outil <br>complémentaire <br>du carnet de <br>santé</h4><br class="d-md-none d-inline">
 				</div>
 				<div class="video-1 col-md-8 center ">
 					<video autobuffer controls id="videos-1">
 						<source id="mp4" src="img/video.mp4" type="video/mp4">
-					</video><br>
+					</video>
 					<img src="img/play.png" id="play-vid">
 
 				</div>
@@ -150,7 +150,7 @@
 
 
 			<div class="expert center mt-10">
-				<h2 class="">L'avis des experts</h2>
+				<h1 class="">L'avis des experts</h1>
 				<div class="row center mt-5">
 					<div class="expert-video col-md-7 center">
 						<video autobuffer controls id="videos-2">
@@ -196,7 +196,7 @@
 
 			<div class="les-parents mt-10 center-p">
 				<div class="over">
-					<h2>Les parents en parlent</h2>
+					<h1>Les parents en parlent</h1>
 					<p class="mt-2">Lorem ipsum dolor sit amet, consetetur </p>
 				</div>
 				<div class="carousel">
@@ -367,7 +367,7 @@
 
 			<div class="decouvrir-le-blog mt-10 center mt-15">
 				<div class="over">
-					<h2 class="">Découvrir le blog malo</h2>
+					<h1 class="">Découvrir le blog malo</h1>
 					<p class="mt-2">Lorem ipsum dolor sit amet, consetetur </p>
 				</div>
 				
@@ -376,7 +376,7 @@
 				<div class="bg-decouvrir row pb-10">
 					<div class="decouvrir-left col-md-8 row col-reverse left">
 						<div class="decouvrir-left-1 col-md-6">
-							<div class="box-shadow anim-rot-left prevention show-on-scroll">
+							<div class="box-shadow sante-et-prevention anim-rot-left show-on-scroll">
 								<h5>Santé et prévention</h5>
 								<ul>
 									<li>Suivi après le retour au domicile post accouchement</li>
@@ -388,7 +388,7 @@
 							</div>
 						</div>
 						<div class="decouvrir-left-2 col-md-6">
-							<div class="box-shadow col-md-5 col-7 anim-rot-right show-on-scroll">
+							<div class="box-shadow sommeil col-md-5 col-7 anim-rot-right show-on-scroll">
 								<h5>Sommeil</h5>
 								<ul>
 									<li>Nouveau-né</li>
@@ -396,7 +396,7 @@
 									<li>....</li>
 								</ul>
 							</div>
-							<div class="box-shadow col-md-9 col-7 anim-rot-right show-on-scroll">
+							<div class="box-shadow alimentation col-md-9 col-7 anim-rot-right show-on-scroll">
 								<h5>Alimentation</h5>
 								<ul>
 									<li>Nouveau-né</li>
@@ -408,7 +408,7 @@
 					</div>
 					<div class="decouvrir-right col-md-4 right mt-5 center-p">
 							<h4 class="d-none d-md-block ">Retrouvez nos conseils <br>pour la santé de vos<br> enfants sur
-							le blog malo !</h4><br><br>
+							le blog<br> malo !</h4><br><br><br>
 							<a href="#" class="boutton-1 ">Découvrir le blog</a>
 
 					</div>
@@ -416,41 +416,16 @@
 			</div>
 
 			<div class="popup mt-10 left-p">
-				<img src="img/img-popup.png" width="20%" class="img-popup">
+				<img src="img/img-popup.png" width="20%">
 				<div class="contenu-popup row center-p">
 					<div class="over col-md-6">
 						<h4 class="titre-popup">Recevez tous les 15 jours la <br>newsletter malo !</h4>
 					</div>
 					
-					<div class="formulaire-popup col-md-6 left row center-p">
-						<div id="inscrire-1">
-							<input type="email" name="mail" placeholder="Entrez votre Email"
-							class="mail-popup formulaire col-md-7 col-11 center-p">
-							<input type="submit" value="S'inscrire" onclick="inscrire1()" class="boutton-popup formulaire col-md-4 col-11">
-						</div>
-						
-						<div class="box-shadow confirmation" id="pop-inscrire-1">
-							<div class="row">
-								<div class="col-1">
-									<img src="img/error.png">
-								</div>
-								<div class="col-11">
-									<p><span>
-										Votre adresse de messagerie est uniquement utilisée pour
-										vous envoyer les lettres d'informations de /product name/,
-										au rythme indicatif de /X/ mails/ par mois. Vous pouvez à
-										tout moment vous désabonner en cliquant sur le lien
-										<a href="#">"se désabonner"</a><br>
-
-										<a href="#">En savoir plus sur la gestion de vos données et vos droits </a>
-									</p></span>
-								</div>
-							</div>
-							<div class="right">
-								<input type="submit" value="Valider" class="formulaire boutton-footer">
-							</div>
-					
-						</div>
+					<div class="formulaire-popup col-md-6 left row">
+						<input type="email" name="mail" placeholder="Entrez votre Email"
+							class="mail-popup formulaire col-md-6 col-12">
+						<input type="submit" value="S'inscrire" class="boutton-popup formulaire col-md-4 col-12">
 					</div>
 				</div>
 			</div>
@@ -480,21 +455,27 @@
 				</div>
 				<div class="formulaire-contact col-md-6 ">
 					<div class="bg-contact">
-						<div class="center row">
-							<input type="text" placeholder="Prénom" class="formulaire contact-text col-md-4 col-4">
-							<input type="email" placeholder="Email" class="formulaire contact-text col-md-6 col-6">
-							<input type="text" placeholder="Sujet" class="formulaire contact-text col-md-10 col-10">
+						<div class="row">
+							<div class="col-md-4">
+								<input type="text" placeholder="Prénom" class="formulaire contact-text">
+							</div>
+							<div class="col-md-8">
+								<input type="email" placeholder="Email" class="formulaire contact-text">
+							</div>
+							
+							<!-- <input type="text" placeholder="Sujet" class="formulaire contact-text col-md-11 col-10">
 							<textarea rows="5" placeholder="Message"
 								class="formulaire contact-text col-md-10 col-10"></textarea><br>
+							<input type="submit" value="Envoyer" class="boutton-contact col-md-6 col-10"> -->
 						</div>
-						<input type="submit" value="Envoyer" class="boutton-contact">
+						
 					</div>
 				</div>
 			</div>
 
 			<div class="il-nous-soutiennent mt-10 center-p center">
-				<h2>Ils nous soutiennent !</h2>
-				<div class="center mt-5">
+				<h1>Ils nous soutiennent !</h1>
+				<div class="center mt-2">
 					<img src="img/lille.png">
 					<img src="img/angers.png">
 				</div>
@@ -508,7 +489,7 @@
 		<div class="logo-popup row center-p">
 			<div class="logo-boutton center col-md-6">
 				<img src="img/logo-footer.png" width="50%"><br>
-				<div class="img-boutton d-none d-md-block">
+				<div class="img-boutton">
 					<a href="#"><img src="img/app-store.png"></a>
 					<a href="#"><img src="img/google-play.png"></a>
 				</div>
@@ -544,10 +525,6 @@
 						<input type="submit" value="Valider" class="formulaire boutton-footer">
 					</div>
 					
-				</div>
-				<div class="img-boutton d-block d-md-none center-p">
-					<a href="#"><img src="img/app-store.png"></a>
-					<a href="#"><img src="img/google-play.png"></a>
 				</div>
 				<div class="suivez-footer">
 					<h4>Suivez-nous</h4>
