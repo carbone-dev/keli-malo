@@ -14,6 +14,10 @@ html
     font-family: 'poppins-medium';
     src: url('../police/Poppins-Medium.woff') format('woff');
 }
+@font-face {
+    font-family: 'poppins-light';
+    src: url('../police/Poppins-ExtraLight.woff') format('woff');
+}
 
 body {
   margin: 0;
@@ -23,13 +27,12 @@ body {
   padding: 12px 12px 19px;
   border-radius: 8px;
   color: #fff;
-  border: none;
+  border: 2px solid #FFBF00;
   font-size: 24px;
   font-family: 'poppins-normal';
   cursor: pointer;
 }
 .btn:hover {
-  transition: all 0.2s ease;
   color: #FFBF00;
   border: 2px solid #FFBF00;
   background-color: transparent;
@@ -217,6 +220,20 @@ li {
   border-radius: 8px;
 }
 .boutton-1:hover {
+
+  opacity: 0.7;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}
+.boutton-article
+  {
+    background-color: #DE397C;
+    padding:15px;
+    border-radius: 5px;
+    color: white;
+
+  }
+  .boutton-article:hover {
 
   opacity: 0.7;
   transition: all 0.5s ease;
@@ -589,7 +606,11 @@ li {
   color: white;
   margin: 30px;
 }
-
+.menu-footer-3 a
+{
+  font-family: poppins-light;
+  font-size: 17px;
+}
 /*-------G R I D------*/
 
 /* .row {
@@ -752,7 +773,14 @@ li {
   .img-boutton img {
     width: 40% !important;
   }
+  .boutton-article
+  {
+    background-color: #DE397C;
+    padding:15px;
+    border-radius: 5px;
+    color: white;
 
+  }
 
   /*-------LE HEROS------*/
 
@@ -1003,10 +1031,38 @@ li {
 {
   margin-left: 0%;
 }
+
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+   #play-vid
+  {
+    top:-150px;
+
+  }
+
+#play-vid-2
+  {
+    top:-145px;
+
+  }
+  .video-1 video
+{
+  width: 100%;
+    border-radius:20px;
+    outline-style: none;
+}
+/*-------expert-video------*/
+
+
+.expert-video video
+{
+  width: 100%;
 }
 
+  }
+
    /*tablette*/
-@media only screen and (min-width: 800px) and (max-width: 1200px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
  h1 {
   font-size: 40px;
   line-height: 50px;

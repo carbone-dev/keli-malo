@@ -14,52 +14,56 @@
 </head>
 
 <body>
-    <div class="container">
 
-        <div class="header row align-items-center">
-            <div class="col-6 col-md-2 ">
-                <a href="index.html">
-                    <img class='img-full-width ' src="img/logo.png">
-                </a>
-            </div>
-            <div class="menu col-6 col-md-10 right d-none d-md-block ">
-                <a href="blog.html">Blog</a>
-                <a href="#contact" class="boutton-1" onclick="contact()">Nous contacter</a>
-            </div>
-            <div class="menu col-6 col-md-10 right d-md-none d-sm-block">
-                <a href="#nav-mobile">
-                    <img src="img/burger.png" alt="">
-                </a>
-            </div>
+    <div class="header-fixe" id="header-fixe">
+            <div class="header row align-items-center">
+                <div class="col-6 col-md-2 ">
+                    <a href="index.html">
+                        <img class='img-full-width ' src="img/logo.png">
+                    </a>
+                </div>
+                <div class="menu col-6 col-md-10 right d-none d-md-block ">
+                    <a href="blog.html">Blog</a>
+                    <a href="#footer" class="boutton-1" onclick="contact()">Nous contacter</a>
+                </div>
+                <div class="menu col-6 col-md-10 right d-md-none d-sm-block">
+                    <a href="#nav-mobile">
+                        <img src="img/burger.png" alt="">
+                    </a>
+                </div>
 
-            <div id="nav-mobile" class="modaloverlay">
-                <div class="modal">
-                    <div class="row">
-                        <div class="col-6">
-                            <img class='img-full-width ' src="img/logo.png">
+                <div id="nav-mobile" class="modaloverlay">
+                    <div class="modal">
+                        <div class="row">
+                            <div class="col-6">
+                                <img class='img-full-width ' src="img/logo.png">
+                            </div>
+                            <div class="menu col-6 right">
+                                <a href="#close" class="close">
+                                    <img src="img/close.png" alt="">
+                                </a>
+                            </div>
                         </div>
-                        <div class="menu col-6 right">
-                            <a href="#close" class="close">
-                                <img src="img/close.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row align-items-center center modal-content">
-                        <div class="col-12">
-                            <a href="blog.html">Blog</a>
-                        </div>
-                        <div class="col-12">
-                            <a href="#" class="boutton-1">Nous contacter</a>
-                        </div>
-                        <div class="col-12 social-media">
-                            <a href="#"><img src="img/instagram.png"></a>
-                            <a href="#"><img src="img/linkedin.png"></a>
-                            <a href="#"><img src="img/facebook.png"></a>
+                        <div class="row align-items-center center modal-content">
+                            <div class="col-12">
+                                <a href="blog.html">Blog</a>
+                            </div>
+                            <div class="col-12">
+                                <a href="#footer" class="boutton-1">Nous contacter</a>
+                            </div>
+                            <div class="col-12 social-media">
+                                <a href="#"><img src="img/instagram.png"></a>
+                                <a href="#"><img src="img/linkedin.png"></a>
+                                <a href="#"><img src="img/facebook.png"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    <div class="container">
+
+        
 
         <div class="top-section row">
             <div class="col-12 col-md-8 t-responsive">
@@ -69,7 +73,7 @@
                 <p>Retrouvez nos conseils pour la santé de vos enfants</p>
             </div>
             <div class="col-12 col-md-4 right t-responsive">
-                <img src="img/blog-header-image.png" alt="blog-header-image" class="anim-right show-on-scroll">
+                <img src="img/blog-header-image.png" alt="blog-header-image" class="anim-right show-on-scroll avec-famille">
             </div>
         </div>
 
@@ -270,13 +274,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="no-gutters mt-5 row">
-                        <div class="col-md-8 d-none d-md-block">
-                        </div>
-                        <div class="col-12 right center-p mtp-10">
-                            <a href="#" class="boutton-1 btn-p">Voir plus d'articles</a>
-                        </div>
-                    </div>
+                    
 
 
 
@@ -286,6 +284,15 @@
                 <div class="col-md-3 d-none d-md-block blog-list-bg">
                     <img src="img/blog-list-bg.jpg" alt="" class="anim-right show-on-scroll">
                 </div>
+            </div>
+            <div class="row center-p mtp-5">
+                <div class="col-6"></div>
+                <a href="#" class="col-11 col-md-3 right center-p boutton-article">
+                    <div class="center">
+                    Voir plus d'articles
+                    </div>
+                </a>
+                <div class="col-3"></div>
             </div>
         </div>
 
@@ -361,7 +368,7 @@
                 <li><a href="#">Signaler un problème </a></li>
                 <li><a href="#">FAQ </a></li>
             </ul>
-            <p>
+            <p class="menu-footer-3">
                 <a href="#">Mentions légales</a>
                 <a href="#">CGU</a>
                 <a href="#"> Politique de confidentialité</a>
@@ -369,6 +376,7 @@
             </p>
         </div>
     </div>
+    
     <script src="js/index.js"></script>
     <script src="js/animations.js"></script>
 </body>

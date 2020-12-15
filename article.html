@@ -14,53 +14,53 @@
 </head>
 
 <body>
-    <div class="container">
+        <div class="header-fixe" id="header-fixe">
+            <div class="header row align-items-center">
+                <div class="col-6 col-md-2 ">
+                    <a href="index.html">
+                        <img class='img-full-width ' src="img/logo.png">
+                    </a>
+                </div>
+                <div class="menu col-6 col-md-10 right d-none d-md-block ">
+                    <a href="blog.html">Blog</a>
+                    <a href="#footer" class="boutton-1" onclick="contact()">Nous contacter</a>
+                </div>
+                <div class="menu col-6 col-md-10 right d-md-none d-sm-block">
+                    <a href="#nav-mobile">
+                        <img src="img/burger.png" alt="">
+                    </a>
+                </div>
 
-        <div class="header row align-items-center">
-            <div class="col-6 col-md-2 ">
-                <a href="index.html">
-                    <img class='img-full-width ' src="img/logo.png">
-                </a>
-            </div>
-            <div class="menu col-6 col-md-10 right d-none d-md-block ">
-                <a href="blog.html">Blog</a>
-                <a href="#contact" class="boutton-1" onclick="contact()">Nous contacter</a>
-            </div>
-            <div class="menu col-6 col-md-10 right d-md-none d-sm-block">
-                <a href="#nav-mobile">
-                    <img src="img/burger.png" alt="">
-                </a>
-            </div>
-
-            <div id="nav-mobile" class="modaloverlay">
-                <div class="modal">
-                    <div class="row">
-                        <div class="col-6">
-                            <img class='img-full-width ' src="img/logo.png">
+                <div id="nav-mobile" class="modaloverlay">
+                    <div class="modal">
+                        <div class="row">
+                            <div class="col-6">
+                                <img class='img-full-width ' src="img/logo.png">
+                            </div>
+                            <div class="menu col-6 right">
+                                <a href="#close" class="close">
+                                    <img src="img/close.png" alt="">
+                                </a>
+                            </div>
                         </div>
-                        <div class="menu col-6 right">
-                            <a href="#close" class="close">
-                                <img src="img/close.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row align-items-center center modal-content">
-                        <div class="col-12">
-                            <a href="blog.html">Blog</a>
-                        </div>
-                        <div class="col-12">
-                            <a href="#" class="boutton-1">Nous contacter</a>
-                        </div>
-                        <div class="col-12 social-media">
-                            <a href="#"><img src="img/instagram.png"></a>
-                            <a href="#"><img src="img/linkedin.png"></a>
-                            <a href="#"><img src="img/facebook.png"></a>
+                        <div class="row align-items-center center modal-content">
+                            <div class="col-12">
+                                <a href="blog.html">Blog</a>
+                            </div>
+                            <div class="col-12">
+                                <a href="#footer" class="boutton-1">Nous contacter</a>
+                            </div>
+                            <div class="col-12 social-media">
+                                <a href="#"><img src="img/instagram.png"></a>
+                                <a href="#"><img src="img/linkedin.png"></a>
+                                <a href="#"><img src="img/facebook.png"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+    <div class="container">
 
         <div class="contenu-article">
 
@@ -118,11 +118,12 @@
                             <p class="primary">Léa Robin</p>
                         </div>
                     </div>
-                </div>
-                <div class="row center d-inline d-md-none mt-10">
+                </div><br>
+                <div class="row center d-inline d-md-none mt-10 ">
                     <img src="img/instagram.png" class="ml-4">
                     <img src="img/linkedin.png" class="ml-4">
                     <img src="img/facebook.png" class="ml-4">
+                    <div><br></div>
                 </div>
 
 
@@ -367,16 +368,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="no-gutters mt-5 row">
-                        <div class="col-md-9 d-none d-md-block">
-                        </div>
-                        <div class="col-md-3 col-12">
-                            <button class="btn btn-primary full-width">
+                    
+                    <div class="row center-p mtp-10 mt-5">
+                        <div class="col-9"></div>
+                            <a href="#" class="col-11 col-md-3 right center-p boutton-article">
+                                <div class="center">
                                 Voir plus d'articles
-                            </button>
+                                </div>
+                            </a>
                         </div>
                     </div>
-                </div>
             </div>
 
         </div>
@@ -451,7 +452,7 @@
                 <li><a href="#">Signaler un problème </a></li>
                 <li><a href="#">FAQ </a></li>
             </ul>
-            <p>
+            <p class="menu-footer-3">
                 <a href="#">Mentions légales</a>
                 <a href="#">CGU</a>
                 <a href="#"> Politique de confidentialité</a>
