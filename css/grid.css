@@ -101,6 +101,14 @@ html {
 {
   margin-left: 10%;
 }
+.pl-2
+{
+  padding-left: 2%;
+}
+.pr-2
+{
+  padding-right: 2%;
+}
 
 @media (min-width: 576px) {
   .container {

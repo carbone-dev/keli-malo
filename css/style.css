@@ -111,16 +111,29 @@ div.sticky {
   #container {
     margin: 2% 7%;
   }
+  .header-fixe
+{
+  padding: 1% 12% !important;
+}
 }
 @media only screen and (min-width: 1601px) and (max-width: 1920px) {
   #container {
-    margin: 2% 10%;
+    margin: 1% 10%;
   }
+    .header-fixe
+{
+  padding: 1% 15% !important;
+}
+
 }
 @media only screen and (min-width: 1921px) and (max-width: 9000px) {
   #container {
     margin: 2% 30%;
   }
+    .header-fixe
+{
+  padding: 2% 20% !important;
+}
 }
 
 /*-------UNI------*/
@@ -212,11 +225,10 @@ li {
 .boutton-contact {
   color: white;
   background-color: #de397c;
-  padding: 13px 80px;
   border-color: #de397c;
   border-radius: 8px;
+  padding: 13px 80px;
   outline: none;
-  margin: 15px;
   font-size: 20px;
   border-style: none;
   font-family:'poppins-normal';
@@ -253,8 +265,17 @@ li {
   padding: 10px;
   
 }
+.formulaire-1 {
+  border: 2px solid;
+  border-radius: 8px;
+  outline: none;
+  font-size: 20px;
+  padding: 10px;
+  
+}
 
 /*-------header------*/
+
 .menu a {
   margin: 0 20px;
 }
@@ -467,7 +488,6 @@ li {
 }
 .bg-contact .boutton-contact
 {
-  margin-left: 5%;
   font-family:'poppins-normal';
 }
 
@@ -536,6 +556,15 @@ li {
 {
   text-decoration:underline;
   font-size: 13px;
+}
+.confirmation p
+{
+  line-height: 15px;
+}
+.confirmation input
+{
+  padding: 5px 30px !important;
+  font-size: 15px;
 }
 #pop
 {
@@ -891,9 +920,7 @@ li {
 
 	.fleche
 	{
-		text-align: right;
-		position: relative;
-		top:0px;
+		display: none;
 	}
 
   .bg-decouvrir {
@@ -912,14 +939,20 @@ li {
 .boutton-contact {
   padding: 10px 50px;
   margin: 10px;
-  font-size: 18px;
+  font-size: 14px;
 }
 .formulaire {
   margin: 5px 5px;
   font-size: 14px;
   padding: 10px;
 }
+.formulaire-1 {
 
+  outline: none;
+  font-size: 14px;
+  padding: 10px;
+  
+}
 .bg-contact {
   padding: 10px;
   background-color: white;

@@ -44,4 +44,22 @@ document.getElementById("pop-1").style.display = "none";
 function inscrire1() {
 document.getElementById("pop-inscrire-1").style.display = "block";
 document.getElementById("inscrire-1").style.display = "none";
+document.getElementById("contenu-popup").style.padding = "5px 60px";
+}
+
+window.onscroll = function (e) {  
+	
+	console.log(window.scrollY);
+	if (window.scrollY > 300){
+		document.getElementById("header-fixe").style.boxShadow = "0 0 20px rgb(0, 0, 0, 0.3)";
+		document.getElementById("header-fixe").style.position = "fixed";
+	}
+	else{
+		document.getElementById("header-fixe").style.boxShadow = "none";
+		document.getElementById("header-fixe").style.position = "inherit";
+	}
+	for (opacity = 0; opacity < 1.1; opacity = opacity + 0.1) 
+{           
+    setTimeout(function(){document.getElementById('header-fixe').style.opacity = opacity;},100)                       
+}  
 }

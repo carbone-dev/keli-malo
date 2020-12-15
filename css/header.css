@@ -1,5 +1,12 @@
-.header{
-    margin-top: 43px;
+.header-fixe
+{
+  
+  width: 100%;
+  z-index: 99;
+  padding: 1% 10%;
+  background-color: rgb(255, 255, 255, 0.9);
+  top: 0;
+  transition: all 0.5s ease;
 }
 
 /* MODAL MOBILE */

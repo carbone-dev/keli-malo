@@ -15,9 +15,7 @@
 </head>
 
 <body>
-
-	<div class="container">
-
+	<div class="header-fixe" id="header-fixe">
 			<div class="header row align-items-center">
 				<div class="col-6 col-md-2 ">
 					<a href="index.html">
@@ -62,12 +60,12 @@
 					</div>
 				</div>
 			</div>
-
+		</div>
+	<div class="container">
 		
 
 
-
-		<div id="contenu center-p">
+		<div id="contenu center-p ">
 
 
 
@@ -417,9 +415,9 @@
 
 			<div class="popup mt-10 left-p">
 				<img src="img/img-popup.png" width="20%" class="img-popup">
-				<div class="contenu-popup row center-p">
-					<div class="over col-md-6">
-						<h4 class="titre-popup">Recevez tous les 15 jours la <br>newsletter malo !</h4>
+				<div class="contenu-popup row center-p center" id="contenu-popup">
+					<div class="col-md-6">
+						<h4 class="titre-popup left">Recevez tous les 15 jours la <br>newsletter malo !</h4>
 					</div>
 					
 					<div class="formulaire-popup col-md-6 left row center-p">
@@ -429,7 +427,7 @@
 							<input type="submit" value="S'inscrire" onclick="inscrire1()" class="boutton-popup formulaire col-md-4 col-11">
 						</div>
 						
-						<div class="box-shadow confirmation" id="pop-inscrire-1">
+						<div class="box-shadow confirmation col-md-11" id="pop-inscrire-1">
 							<div class="row">
 								<div class="col-1">
 									<img src="img/error.png">
@@ -478,16 +476,37 @@
 					<a href="#"><img src="img/linkedin.png"></a>
 					<a href="#"><img src="img/facebook.png"></a>
 				</div>
-				<div class="formulaire-contact col-md-6 ">
-					<div class="bg-contact">
-						<div class="center row">
-							<input type="text" placeholder="Prénom" class="formulaire contact-text col-md-4 col-4">
-							<input type="email" placeholder="Email" class="formulaire contact-text col-md-6 col-6">
-							<input type="text" placeholder="Sujet" class="formulaire contact-text col-md-10 col-10">
-							<textarea rows="5" placeholder="Message"
-								class="formulaire contact-text col-md-10 col-10"></textarea><br>
+				<div class="formulaire-contact col-md-6 mtp-5">
+					<div class="bg-contact center">
+						<div class="row mt-2">
+							<div class="col-md-5 mtp-5">
+								<input type="text" placeholder="Prénom" class="formulaire-1 contact-text col-md-12">
+							</div>
+							<div class="col-md-7 mtp-5">
+								<input type="email" placeholder="Email" class="formulaire-1 contact-text col-md-12">
+							</div>
+							
 						</div>
-						<input type="submit" value="Envoyer" class="boutton-contact">
+						<div class="row mt-5">
+							<div class="col-md-12">
+								<input type="text" placeholder="Sujet" class="formulaire-1 contact-text col-md-12">
+							</div>
+							
+						</div>
+						<div class="row mt-5">
+							<div class="col-md-12">
+								<textarea rows="5" placeholder="Message"
+								class="formulaire-1 contact-text col-md-12"></textarea>
+							</div>
+							
+						</div>
+						<div class="left mt-5 ">
+							<div class="col-md-12">
+								<input type="submit" value="Envoyer" class="boutton-contact">
+							</div>
+							
+						</div>
+						
 					</div>
 				</div>
 			</div>
