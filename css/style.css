@@ -550,12 +550,10 @@ li {
   margin-right: 30px;
 }
 .mail-footer {
-  color: gray;
-  border-color: gray;
+  border-color:#d8d8d8 ;
 }
 .mail-footer::placeholder {
-  color: gray;
-  border-color: gray;
+  border-color: #d8d8d8;
 }
 .boutton-footer {
   color: white;
