@@ -33,6 +33,7 @@ body {
   cursor: pointer;
 }
 .btn:hover {
+  transition: all 0.8s ease;
   color: #FFBF00;
   border: 2px solid #FFBF00;
   background-color: transparent;
@@ -441,7 +442,7 @@ li {
 .contenu-popup {
   background-color: #1a5a9d;
   border-radius: 20px;
-  padding: 60px;
+  padding: 80px 60px;
   z-index: 12;
   position: relative;
 }
@@ -549,12 +550,12 @@ li {
   margin-right: 30px;
 }
 .mail-footer {
-  color: #d8d8d8;
-  border-color: #d8d8d8;
+  color: gray;
+  border-color: gray;
 }
 .mail-footer::placeholder {
-  color: #d8d8d8;
-  border-color: #d8d8d8;
+  color: gray;
+  border-color: gray;
 }
 .boutton-footer {
   color: white;
@@ -576,7 +577,7 @@ li {
 }
 .confirmation p
 {
-  line-height: 15px;
+  line-height: 13px;
 }
 .confirmation input
 {
@@ -1030,6 +1031,12 @@ li {
 .bg-contact .boutton-contact
 {
   margin-left: 0%;
+}
+.header-fixe
+{
+  
+  padding: 5% 0% 1% 0% !important;
+
 }
 
 }

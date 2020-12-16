@@ -59,6 +59,6 @@ document.getElementById("pop-1").style.display = "none";
 function inscrire1() {
 document.getElementById("pop-inscrire-1").style.display = "block";
 document.getElementById("inscrire-1").style.display = "none";
-document.getElementById("contenu-popup").style.padding = "5px 60px";
+document.getElementById("contenu-popup").style.padding = "0px 60px";
 }
 
