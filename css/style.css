@@ -732,6 +732,11 @@ li {
   {
     padding: 0 !important;
   }
+  .menu-footer-3 a
+  {
+    padding: 0 !important;
+    font-size: 12px !important;
+  }
   .mtp-5
 {
   margin-top: 5%;
@@ -1009,7 +1014,7 @@ li {
 .menu-footer {
   background-color: #0f3c6b;
   margin: 0;
-  padding: 10px;
+  padding: 5px;
 }
 .menu-footer li {
   list-style: none;
@@ -1017,8 +1022,8 @@ li {
 }
 .menu-footer a{
   color: white;
-  margin:15px !important;
-  font-size: 13px !important;
+  margin:5px !important;
+  font-size: 11px !important;
 }
 .menu-footer span {
   color: white;
@@ -1043,6 +1048,11 @@ li {
   
   padding: 5% 0% 1% 0% !important;
 
+}
+.news-letter p
+{
+  font-size: 13px !important;
+  line-height: 18px !important;
 }
 
 }
