@@ -2,7 +2,6 @@ window.onscroll = function (e) {
 	
 	console.log(window.scrollY);
 	if (window.scrollY > 300){
-		document.getElementById("header-fixe").style.boxShadow = "0 0 20px rgb(0, 0, 0, 0.3)";
 		document.getElementById("header-fixe").style.position = "fixed";
 	}
 	else{

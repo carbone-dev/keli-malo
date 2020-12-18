@@ -110,7 +110,7 @@
   }
 
   .blog-content span {
-    font-size: 8px !important;
+    font-size: 12px !important;
   }
 
   .blog-img img {
@@ -140,7 +140,8 @@
   }
   .card-title
   {
-    font-size: 14px !important;
+    font-size: 13px !important;
+    font-family: poppins-normal;
   }
   .btn-p
   {
@@ -148,6 +149,6 @@
   }
   .avec-famille
   {
-    width: 60%;
+    width: 50%;
   }
 }
