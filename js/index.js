@@ -69,6 +69,6 @@ document.getElementById("contenu-popup").style.padding = "0px 60px";
 function inscrirephone() {
 document.getElementById("pop-inscrire-phone").style.display = "block";
 document.getElementById("inscrire-phone").style.display = "none";
-document.getElementById("contenu-popup-phone").style.padding = "10px 5px";
+document.getElementById("contenu-popup-phone").style.padding = "10px 0px";
 }
 
