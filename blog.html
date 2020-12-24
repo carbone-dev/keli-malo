@@ -36,7 +36,7 @@
                     <div class="modal">
                         <div class="row">
                             <div class="col-6">
-                                <img class='img-full-width ' src="img/logo.png">
+                                <a href="index.html"><img class='img-full-width ' src="img/logo.png"><a/>
                             </div>
                             <div class="menu col-6 right">
                                 <a href="#close" class="close">
@@ -305,7 +305,7 @@
     <div class="footer mt-10" id="footer">
         <div class="logo-popup row center-p">
             <div class="logo-boutton center col-md-6">
-                <img src="img/logo-footer.png" width="50%"><br>
+                <img src="img/logo-footer.png" class="logo-footer"><br>
                 <div class="img-boutton d-none d-md-block">
                     <a href="#"><img src="img/app-store.png"></a>
                     <a href="#"><img src="img/google-play.png"></a>
@@ -315,20 +315,22 @@
                 <div class="box-shadow news-letter" id="pop-1">
                     <h4>Newsletter</h4>
                     <p class="">Inscrivez-vous à notre newsletter pour recevoir <br class="d-none d-md-block">les derniers articles du blog !</p>
-                    <div class="row center-p">
+                    <div class="row center-p p-0">
                         <input type="email" name="mail" placeholder="Mail"
-                            class="formulaire mail-footer col-md-6 col-6">
-                        <input type="submit" onclick="inscrire()" value="S'inscrire"
-                            class="formulaire boutton-footer col-md-4 col-4">
+                            class="formulaire mail-footer col-md-6 col-7">
+                            <input type="submit" onclick="inscrire()" value="S'inscrire"
+                            class="formulaire boutton-footer col-md-4 col-4 d-none d-md-block">
+                        <input type="submit" onclick="inscrirePhoneFooter()" value="S'inscrire"
+                            class="formulaire boutton-footer col-md-4 col-4 d-block d-md-none">
                     </div>
                 </div>
                 <div class="box-shadow confirmation" id="pop" display="display">
-                    <div class="row">
-                        <div class="col-1">
+                    <div class="row center-text-p">
+                        <div class="col-md-1 col-1">
                             <img src="img/error.png">
                         </div>
-                        <div class="col-11">
-                            <p><span>
+                        <div class="col-md-11 col-10 justify">
+                            <p><span class="text-popup">
                                     Votre adresse de messagerie est uniquement utilisée pour
                                     vous envoyer les lettres d'informations de /product name/,
                                     au rythme indicatif de /X/ mails/ par mois. Vous pouvez à
@@ -339,7 +341,7 @@
                             </p></span>
                         </div>
                     </div>
-                    <div class="right">
+                    <div class="right center-p">
                         <input type="submit" value="Valider" class="formulaire boutton-footer">
                     </div>
 
