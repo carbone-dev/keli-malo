@@ -291,7 +291,10 @@ li {
   padding: 10px;
   
 }
-
+.logo-footer
+{
+  width: 50%;
+}
 /*-------header------*/
 
 .menu a {
@@ -473,7 +476,7 @@ li {
   color: #de397c;
   cursor: pointer;
 }
-#pop-inscrire-1
+#pop-inscrire-1, #pop-inscrire-phone
 {
   display: none;
 }
@@ -724,6 +727,11 @@ li {
 
 
 @media only screen and (min-width: 107px) and (max-width: 768px) {
+
+  .logo-footer
+{
+  width: 80%;
+}
   .logo-popup {
     padding: 40px 0 40px 0;
     margin: 0;
@@ -748,6 +756,10 @@ li {
 .mtp-15
 {
   margin-top: 15%;
+}
+.mbp-5
+{
+  margin-bottom: 5%;
 }
   .top-section {
     margin-top: 35px;
@@ -809,6 +821,10 @@ li {
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+  .center-texte-p {
+  justify-content: center;
+  text-align: center;
 }
 .justify
 {
@@ -1049,10 +1065,19 @@ li {
   padding: 5% 0% 1% 0% !important;
 
 }
+
 .news-letter p
 {
   font-size: 13px !important;
   line-height: 18px !important;
+}
+.news-letter h4
+{
+  margin: 2% 0;
+}
+.text-popup
+{
+  font-size: 12px !important;
 }
 
 }
