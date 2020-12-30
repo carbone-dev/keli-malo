@@ -1,3 +1,23 @@
+html
+{
+  overflow-x:hidden;
+}
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../police/Poppins-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'poppins-normal';
+    src: url('../police/Poppins-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('../police/Poppins-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'poppins-light';
+    src: url('../police/Poppins-ExtraLight.woff') format('woff');
+}
 .card {
   transition: 0.3s;
   width: 100%;
@@ -95,7 +115,7 @@
   bottom: 10px;
   display: block;
   border-radius: 8px;
-  font-family: montserrat;
+  font-family: poppins-bold;
   right: 10px;
 }
 
