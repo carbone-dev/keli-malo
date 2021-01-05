@@ -22,6 +22,10 @@ html
 {
   
 }
+.titre-article-p h2
+{
+  margin: 0 4%;
+}
 .card {
   transition: 0.3s;
   width: 100%;
