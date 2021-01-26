@@ -90,11 +90,11 @@ function validerPhone() {
 document.getElementById("pop-valider-phone").style.display = "block";
 }
 
-function fermer() {
+function fermerPhone() {
 document.getElementById("pop-valider-phone").style.display = "none";
 }
 
-function inscrirePop2() {
+function inscrirePop2Phone() {
 document.getElementById("pop-2-valider-phone").style.display = "block";
 document.getElementById("form-pop2-phone").style.display = "none";
 document.getElementById("boutton-pop2-phone").style.display = "none";
