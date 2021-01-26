@@ -72,3 +72,30 @@ document.getElementById("inscrire-phone").style.display = "none";
 document.getElementById("contenu-popup-phone").style.padding = "10px 0px";
 }
 
+function valider() {
+document.getElementById("pop-valider").style.display = "block";
+}
+
+function fermer() {
+document.getElementById("pop-valider").style.display = "none";
+}
+
+function inscrirePop2() {
+document.getElementById("pop-2-valider").style.display = "block";
+document.getElementById("form-pop2").style.display = "none";
+document.getElementById("boutton-pop2").style.display = "none";
+}
+
+function validerPhone() {
+document.getElementById("pop-valider-phone").style.display = "block";
+}
+
+function fermer() {
+document.getElementById("pop-valider-phone").style.display = "none";
+}
+
+function inscrirePop2() {
+document.getElementById("pop-2-valider-phone").style.display = "block";
+document.getElementById("form-pop2-phone").style.display = "none";
+document.getElementById("boutton-pop2-phone").style.display = "none";
+}

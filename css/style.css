@@ -189,7 +189,7 @@ h5 {
   font-size: 20px;
 }
 h6 {
-  line-height: 20px;
+  line-height: 23px;
   font-size: 16px;
 }
 
@@ -289,6 +289,14 @@ li {
   outline: none;
   font-size: 20px;
   padding: 10px;
+  
+}
+.formulaire-1 {
+  border: 2px solid;
+  border-radius: 5px;
+  outline: none;
+  font-size: 15px;
+  padding: 5px;
   
 }
 .logo-footer
@@ -476,7 +484,7 @@ li {
   color: #de397c;
   cursor: pointer;
 }
-#pop-inscrire-1, #pop-inscrire-phone
+#pop-inscrire-1, #pop-inscrire-phone, #pop-valider, #pop-2-valider, #pop-valider-phone, #pop-2-valider-phone
 {
   display: none;
 
@@ -488,7 +496,15 @@ li {
 
 }
 
-
+.popup-2
+{
+  background-color: rgb(0, 0, 0, 0.5);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
 
 /*-------CONTACT------*/
 
@@ -525,6 +541,16 @@ li {
 }
 .contact-text::placeholder {
   color: black;
+  border-color: #d8d8d8;
+  font-family:'poppins-normal';
+}
+.popup-text {
+  color: gray;
+  border-color: #de397c;
+  font-family:'poppins-normal';
+}
+.popup-text::placeholder {
+  color: gray;
   border-color: #d8d8d8;
   font-family:'poppins-normal';
 }
@@ -573,11 +599,33 @@ li {
   padding: 10px 40px;
   cursor: pointer;
 }
+.fermer
+{
+  opacity: 0.5;
+  cursor: pointer;
+}
 .boutton-footer:hover {
   opacity: 0.7;
   transition: all 0.5s ease;
   box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
 }
+.boutton-pop {
+  color: white;
+  font-family: poppins-medium;
+ background-color: #de397c;
+  border-color: #de397c;
+  padding: 5px 40px;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  border-radius: 5px;
+}
+.boutton-pop:hover {
+  opacity: 0.7;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}
+
 .confirmation a
 {
   text-decoration:underline;
@@ -1086,6 +1134,18 @@ li {
 {
   font-size: 12px !important;
 
+}
+.boutton-pop {
+  padding: 5px 60px;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  border-radius: 5px;
+}
+.boutton-pop:hover {
+  opacity: 0.7;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
 }
 
 }
