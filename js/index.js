@@ -61,14 +61,37 @@ document.getElementById("pop-1").style.display = "none";
 }
 
 function inscrire1() {
-document.getElementById("pop-inscrire-1").style.display = "block";
-document.getElementById("inscrire-1").style.display = "none";
-document.getElementById("contenu-popup").style.padding = "0px 60px";
+document.getElementById("pop-valider").style.display = "block";
 }
 
 function inscrirephone() {
-document.getElementById("pop-inscrire-phone").style.display = "block";
-document.getElementById("inscrire-phone").style.display = "none";
-document.getElementById("contenu-popup-phone").style.padding = "10px 0px";
+document.getElementById("pop-valider-phone").style.display = "block";
 }
 
+function valider() {
+document.getElementById("pop-valider").style.display = "block";
+}
+
+function fermer() {
+document.getElementById("pop-valider").style.display = "none";
+}
+
+function inscrirePop2() {
+document.getElementById("pop-2-valider").style.display = "block";
+document.getElementById("form-pop2").style.display = "none";
+document.getElementById("boutton-pop2").style.display = "none";
+}
+
+function validerPhone() {
+document.getElementById("pop-valider-phone").style.display = "block";
+}
+
+function fermerPhone() {
+document.getElementById("pop-valider-phone").style.display = "none";
+}
+
+function inscrirePop2Phone() {
+document.getElementById("pop-2-valider-phone").style.display = "block";
+document.getElementById("form-pop2-phone").style.display = "none";
+document.getElementById("boutton-pop2-phone").style.display = "none";
+}
