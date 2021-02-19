@@ -1,6 +1,3 @@
-setTimeout(function(){ inscrire1(); }, 5000);
-
-
 window.onscroll = function (e) {  
 	
 	console.log(window.scrollY);
@@ -64,7 +61,7 @@ document.getElementById("pop-1").style.display = "none";
 }
 
 function inscrire1() {
-	document.getElementById("pop-valider").style.display = "block";
+document.getElementById("pop-valider").style.display = "block";
 }
 
 function inscrirephone() {
