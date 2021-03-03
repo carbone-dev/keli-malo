@@ -1,4 +1,4 @@
-setTimeout(function(){ inscrireDebut(); }, 5000);
+
 
 
 window.onscroll = function (e) {  
