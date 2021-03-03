@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -318,9 +318,9 @@
                     <div class="row center-p p-0">
                         <input type="email" name="mail" placeholder="Mail"
                             class="formulaire mail-footer col-md-6 col-7">
-                            <input type="submit" onclick="inscrire()" value="S'inscrire"
+                            <input type="submit" onclick="inscrire1()" value="S'inscrire"
                             class="formulaire boutton-footer col-md-4 col-4 d-none d-md-block">
-                        <input type="submit" onclick="inscrirePhoneFooter()" value="S'inscrire"
+                        <input type="submit" onclick="inscrirephone()" value="S'inscrire"
                             class="formulaire boutton-footer col-md-4 col-4 d-block d-md-none">
                     </div>
                 </div>
@@ -378,6 +378,117 @@
             </p>
         </div>
     </div>
+    <div class="popup-2 pr-20 pl-20 pt-5" id="pop-valider">
+                <div class="box-shadow mr-5 ml-5">
+                    <div class="right fermer">
+                        <img src="img/fermer.png" width="3%" onclick="fermer()">
+                    </div>
+                    <div class="center">
+                        <img src="img/img-popup.png" width="20%">
+                    </div>
+                    <div class="center">
+                        <h3 class="secondary m-0">Hello</h3>
+                        <h6 class="secondary mr-20 ml-20 mt-2">
+                            Inscrivez-vous à notre newsletter pour recevoir les derniers articles du blog!
+                        </h6>
+                    </div>
+                    <div class="center mt-5" id="form-pop2">
+                        <input type="text" placeholder="Prénom" class="formulaire-1 popup-text ">
+                        <input type="email" placeholder="Email" class="formulaire-1 popup-text">
+                    </div>
+                    <div class="center" id="boutton-pop2">
+                        <input type="submit" value="S'inscrire" onclick="inscrirePop2()" class="formulaire boutton-pop">
+                    </div>
+                    <div class="box-shadow confirmation" id="pop-2-valider">
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="img/error.png">
+                                </div>
+                                <div class="col-11 left">
+                                    <p><span>
+                                        Votre adresse de messagerie est uniquement utilisée pour
+                                        vous envoyer les lettres d'informations de /product name/,
+                                        au rythme indicatif de /X/ mails/ par mois. Vous pouvez à
+                                        tout moment vous désabonner en cliquant sur le lien
+                                        <a href="#">"se désabonner"</a><br>
+
+                                        <a href="#">En savoir plus sur la gestion de vos données et vos droits </a>
+                                    </p></span>
+                                </div>
+                            </div>
+                            <div class="center row"> 
+                                <div class="left">
+                                    <p><span>
+                                        <input type="checkbox" id="scales" name="scales">
+                                        <label for="scales">j'accepte de recevoir la newsletter</label>
+                                    </span></p>
+                                </div>
+                                <div class="right">
+                                    <input type="submit" value="Valider" class="formulaire boutton-footer">
+                                </div>
+                            </div>
+                    
+                        </div>
+    
+                </div>
+                
+            </div>
+
+
+
+            <div class="popup-2 mt-5" id="pop-valider-phone">
+                <div class="box-shadow">
+                    <div class="right fermer">
+                        <img src="img/fermer.png" width="3%" onclick="fermerPhone()">
+                    </div>
+                    <div class="center">
+                        <img src="img/img-popup.png" width="20%">
+                    </div>
+                    <div class="center">
+                        <h3 class="secondary m-0">Hello</h3>
+                        <h6 class="secondary mr-20 ml-20 mt-2">
+                            Inscrivez-vous à notre newsletter pour recevoir les derniers articles du blog!
+                        </h6>
+                    </div>
+                    <div class="center mt-5" id="form-pop2-phone">
+                        <input type="text" placeholder="Prénom" class="formulaire-1 popup-text ">
+                        <input type="email" placeholder="Email" class="formulaire-1 popup-text mt-5">
+                    </div>
+                    <div class="center mt-5" id="boutton-pop2-phone">
+                        <input type="submit" value="S'inscrire" onclick="inscrirePop2Phone()" class="formulaire boutton-pop">
+                    </div>
+                    <div class="box-shadow-2 confirmation  pt-5 mt-5" id="pop-2-valider-phone">
+                            <div class="row p-0">
+                                <div class="col-1 p-0">
+                                    <img src="img/error.png">
+                                </div>
+                                <div class="col-11 left p-0">
+                                    <p><span class="text-popup">
+                                        Votre adresse de messagerie est uniquement utilisée pour
+                                        vous envoyer les lettres d'informations de /product name/,
+                                        au rythme indicatif de /X/ mails/ par mois. Vous pouvez à
+                                        tout moment vous désabonner en cliquant sur le lien
+                                        <a href="#">"se désabonner"</a><br>
+
+                                        <a href="#">En savoir plus sur la gestion de vos données et vos droits </a>
+                                    </p></span>
+                                </div>
+                            </div>
+                            <div class="center">
+                                    <p><span class="text-popup">
+                                        <input type="checkbox" id="scales" name="scales">
+                                        <label for="scales">j'accepte de recevoir la newsletter</label>
+                                    </span></p>
+                                </div>
+                            <div class="center">
+                                <input type="submit" value="Valider" onclick="validerPhone()" class="formulaire boutton-footer">
+                            </div>
+                    
+                        </div>
+    
+                </div>
+                
+            </div>
     
     <script src="js/index.js"></script>
     <script src="js/animations.js"></script>
