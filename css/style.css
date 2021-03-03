@@ -279,7 +279,7 @@ li {
   border-radius: 8px;
   outline: none;
   margin: 13px 5px;
-  font-size: 20px;
+  font-size: 18px;
   padding: 10px;
   
 }
@@ -470,7 +470,7 @@ li {
   background-color: rgb(0, 0, 0, 0);
   color: white;
   font-family: 'poppins-normal';
-  font-weight: bold;
+  font-weight:;
 }
 .mail-popup::placeholder {
   color: white;
@@ -484,7 +484,7 @@ li {
   color: #de397c;
   cursor: pointer;
 }
-#pop-inscrire-1, #pop-inscrire-phone, #pop-valider, #pop-2-valider, #pop-valider-phone, #pop-2-valider-phone
+#pop-inscrire-1, #pop-inscrire-phone, #pop-valider, #pop-2-valider, #pop-valider-phone, #pop-2-valider-phone, #pop-valider-1 , #pop-valider-phone-1
 {
   display: none;
 
@@ -782,7 +782,11 @@ li {
 
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
-
+.pr-20, .pl-20
+  {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
   .logo-footer
 {
   width: 80%;
@@ -1151,7 +1155,11 @@ li {
 }
 
 @media only screen and (min-width: 21px) and (max-width: 320px) {
-  
+  .pr-20, .pl-20
+  {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
   .ml-2, .mr-2
   {
     margin:0 !important;

@@ -1,4 +1,4 @@
-setTimeout(function(){ inscrire1(); }, 5000);
+setTimeout(function(){ inscrireDebut(); }, 5000);
 
 
 window.onscroll = function (e) {  
@@ -52,7 +52,9 @@ setInterval(function(){
 	plusSlides(1)
 }, 5000);
 
-
+function inscrireDebut() {
+document.getElementById("pop-valider").style.display = "block";
+}
 function inscrire() {
 document.getElementById("pop").style.display = "block";
 document.getElementById("pop-1").style.display = "none";
@@ -64,11 +66,11 @@ document.getElementById("pop-1").style.display = "none";
 }
 
 function inscrire1() {
-	document.getElementById("pop-valider").style.display = "block";
+document.getElementById("pop-valider-1").style.display = "block";
 }
 
 function inscrirephone() {
-document.getElementById("pop-valider-phone").style.display = "block";
+document.getElementById("pop-valider-phone-1").style.display = "block";
 }
 
 function valider() {
@@ -77,6 +79,10 @@ document.getElementById("pop-valider").style.display = "block";
 
 function fermer() {
 document.getElementById("pop-valider").style.display = "none";
+}
+
+function fermer1() {
+document.getElementById("pop-valider-1").style.display = "none";
 }
 
 function inscrirePop2() {
@@ -93,6 +99,9 @@ function fermerPhone() {
 document.getElementById("pop-valider-phone").style.display = "none";
 }
 
+function fermerPhone1() {
+document.getElementById("pop-valider-phone-1").style.display = "none";
+}
 function inscrirePop2Phone() {
 document.getElementById("pop-2-valider-phone").style.display = "block";
 document.getElementById("form-pop2-phone").style.display = "none";
